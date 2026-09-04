@@ -1,0 +1,1202 @@
+[
+  {
+    "task": "medical_genetics",
+    "question": "In a Robertsonian translocation fusion occurs at the:",
+    "choices": [
+      "telomeres.",
+      "centromeres.",
+      "histones.",
+      "ends of the long arms."
+    ],
+    "answer": "B",
+    "formatted": "In a Robertsonian translocation fusion occurs at the:\nA. telomeres.\nB. centromeres.\nC. histones.\nD. ends of the long arms.\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Zinc finger proteins and helix-turn-helix proteins are",
+    "choices": [
+      "types of DNA-binding proteins",
+      "involved in the control of translation",
+      "components of ribosomes",
+      "part of the hemoglobin in blood cells"
+    ],
+    "answer": "A",
+    "formatted": "Zinc finger proteins and helix-turn-helix proteins are\nA. types of DNA-binding proteins\nB. involved in the control of translation\nC. components of ribosomes\nD. part of the hemoglobin in blood cells\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "If the frequency of males affected with an X-linked recessive condition in a human population is .10 (one in ten), what will be the expected frequency of affected females?",
+    "choices": [
+      "0.01",
+      "0.001",
+      "0.02",
+      "0.0001"
+    ],
+    "answer": "A",
+    "formatted": "If the frequency of males affected with an X-linked recessive condition in a human population is .10 (one in ten), what will be the expected frequency of affected females?\nA. 0.01\nB. 0.001\nC. 0.02\nD. 0.0001\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "In DNA adenine normally pairs with:",
+    "choices": [
+      "cytosine.",
+      "guanine.",
+      "thymine.",
+      "uracil."
+    ],
+    "answer": "C",
+    "formatted": "In DNA adenine normally pairs with:\nA. cytosine.\nB. guanine.\nC. thymine.\nD. uracil.\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "The pattern of inheritance shown by malignant hyperthermia (hyperpyrexia) is:",
+    "choices": [
+      "autosomal dominant.",
+      "autosomal recessive.",
+      "X-linked dominant.",
+      "X-linked recessive."
+    ],
+    "answer": "A",
+    "formatted": "The pattern of inheritance shown by malignant hyperthermia (hyperpyrexia) is:\nA. autosomal dominant.\nB. autosomal recessive.\nC. X-linked dominant.\nD. X-linked recessive.\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Mapping of human chromosomes:",
+    "choices": [
+      "has been restricted to the sex chromosomes because of small family sizes",
+      "proceeded much more successfully as large numbers of DNA markers became available.",
+      "has determined that the number of linkage groups is about twice the number of chromosomes",
+      "has demonstrated that almost all of the DNA is involved in coding for genes"
+    ],
+    "answer": "B",
+    "formatted": "Mapping of human chromosomes:\nA. has been restricted to the sex chromosomes because of small family sizes\nB. proceeded much more successfully as large numbers of DNA markers became available.\nC. has determined that the number of linkage groups is about twice the number of chromosomes\nD. has demonstrated that almost all of the DNA is involved in coding for genes\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Intergenerational transmission to offspring can occur as a result of parental exposures to ______.",
+    "choices": [
+      "war",
+      "natural disasters",
+      "hunger",
+      "all of these"
+    ],
+    "answer": "D",
+    "formatted": "Intergenerational transmission to offspring can occur as a result of parental exposures to ______.\nA. war\nB. natural disasters\nC. hunger\nD. all of these\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Asp235Phe in a molecular report indicates that:",
+    "choices": [
+      "asparagine has been replaced by phenylalanine.",
+      "phenylalanine has been replaced by asparagine.",
+      "aspartic acid has been replaced by phenylalanine.",
+      "phenylalanine has been replaced by aspartic acid."
+    ],
+    "answer": "C",
+    "formatted": "Asp235Phe in a molecular report indicates that:\nA. asparagine has been replaced by phenylalanine.\nB. phenylalanine has been replaced by asparagine.\nC. aspartic acid has been replaced by phenylalanine.\nD. phenylalanine has been replaced by aspartic acid.\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "The risk of abnormality in the child of a mother with untreated phenylketonuria is:",
+    "choices": [
+      "1%",
+      "10%",
+      "25%",
+      "Almost 100%"
+    ],
+    "answer": "D",
+    "formatted": "The risk of abnormality in the child of a mother with untreated phenylketonuria is:\nA. 1%\nB. 10%\nC. 25%\nD. Almost 100%\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Exon skipping is associated with:",
+    "choices": [
+      "nonsense mutations.",
+      "regulatory mutations.",
+      "RNA processing mutations.",
+      "silent mutations."
+    ],
+    "answer": "C",
+    "formatted": "Exon skipping is associated with:\nA. nonsense mutations.\nB. regulatory mutations.\nC. RNA processing mutations.\nD. silent mutations.\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Which of the following is not a chromosome instability syndrome?",
+    "choices": [
+      "Klinefelter syndrome",
+      "Ataxia telangiectasia",
+      "Fanconi anaemia",
+      "Bloom syndrome"
+    ],
+    "answer": "A",
+    "formatted": "Which of the following is not a chromosome instability syndrome?\nA. Klinefelter syndrome\nB. Ataxia telangiectasia\nC. Fanconi anaemia\nD. Bloom syndrome\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Normal adult haemoglobin (Hb A) consists of:",
+    "choices": [
+      "two α (alpha) and two β (beta) chains.",
+      "two α and two γ (gamma) chains.",
+      "two α and two δ (delta) chains.",
+      "four γ chains."
+    ],
+    "answer": "A",
+    "formatted": "Normal adult haemoglobin (Hb A) consists of:\nA. two α (alpha) and two β (beta) chains.\nB. two α and two γ (gamma) chains.\nC. two α and two δ (delta) chains.\nD. four γ chains.\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "In a condition such as schizophrenia the recurrence risk will be greatest for which of the following relatives of an affected individual?",
+    "choices": [
+      "Brother",
+      "Nephew",
+      "Grandchild",
+      "Aunt"
+    ],
+    "answer": "A",
+    "formatted": "In a condition such as schizophrenia the recurrence risk will be greatest for which of the following relatives of an affected individual?\nA. Brother\nB. Nephew\nC. Grandchild\nD. Aunt\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "The mutation in sickle-cell disease consists of:",
+    "choices": [
+      "a deletion.",
+      "a duplication.",
+      "an insertion.",
+      "a point mutation."
+    ],
+    "answer": "D",
+    "formatted": "The mutation in sickle-cell disease consists of:\nA. a deletion.\nB. a duplication.\nC. an insertion.\nD. a point mutation.\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Which of the following is an example of monosomy?",
+    "choices": [
+      "46,XX",
+      "47,XXX",
+      "69,XYY",
+      "45,X"
+    ],
+    "answer": "D",
+    "formatted": "Which of the following is an example of monosomy?\nA. 46,XX\nB. 47,XXX\nC. 69,XYY\nD. 45,X\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "QTL analysis is used to",
+    "choices": [
+      "identify chromosome regions associated with a complex trait in a genetic cross",
+      "determine which genes are expressed at a developmental stage",
+      "map genes in bacterial viruses",
+      "identify RNA polymerase binding sites"
+    ],
+    "answer": "A",
+    "formatted": "QTL analysis is used to\nA. identify chromosome regions associated with a complex trait in a genetic cross\nB. determine which genes are expressed at a developmental stage\nC. map genes in bacterial viruses\nD. identify RNA polymerase binding sites\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "What would be the frequency of AABBCC individuals from a mating of two AaBbCc individuals?",
+    "choices": [
+      "1.0/64",
+      "1.0/32",
+      "1.0/128",
+      "1.0/256"
+    ],
+    "answer": "A",
+    "formatted": "What would be the frequency of AABBCC individuals from a mating of two AaBbCc individuals?\nA. 1.0/64\nB. 1.0/32\nC. 1.0/128\nD. 1.0/256\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "It is currently estimated that there are ______ human protein-coding genes although this estimate may be reduced over time.",
+    "choices": [
+      "10,000–15,000",
+      "19,000–20,000",
+      "29,000–30,000",
+      "100,000"
+    ],
+    "answer": "B",
+    "formatted": "It is currently estimated that there are ______ human protein-coding genes although this estimate may be reduced over time.\nA. 10,000–15,000\nB. 19,000–20,000\nC. 29,000–30,000\nD. 100,000\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "With which of the following relatives is an individual most likely to share a common HLA haplotype?",
+    "choices": [
+      "Father",
+      "Mother",
+      "Sister",
+      "Son"
+    ],
+    "answer": "C",
+    "formatted": "With which of the following relatives is an individual most likely to share a common HLA haplotype?\nA. Father\nB. Mother\nC. Sister\nD. Son\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Which of the following genes conveys susceptibility for polygenic Alzheimer disease?",
+    "choices": [
+      "APP",
+      "PS1",
+      "PS2",
+      "APOE"
+    ],
+    "answer": "D",
+    "formatted": "Which of the following genes conveys susceptibility for polygenic Alzheimer disease?\nA. APP\nB. PS1\nC. PS2\nD. APOE\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "The DiGeorge/Shprintzen syndrome is caused by a deletion in which chromosome?",
+    "choices": [
+      "4",
+      "7",
+      "15",
+      "22"
+    ],
+    "answer": "D",
+    "formatted": "The DiGeorge/Shprintzen syndrome is caused by a deletion in which chromosome?\nA. 4\nB. 7\nC. 15\nD. 22\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "X-chromosome inactivation",
+    "choices": [
+      "results in genetically turning off one of the two X chromosomes in female mammals",
+      "takes place in humans so that the same X chromosome is inactive in all of the cells of a female",
+      "is the cause of the Y chromosome being genetically inactive",
+      "occurs in fruit flies but not in mammals"
+    ],
+    "answer": "A",
+    "formatted": "X-chromosome inactivation\nA. results in genetically turning off one of the two X chromosomes in female mammals\nB. takes place in humans so that the same X chromosome is inactive in all of the cells of a female\nC. is the cause of the Y chromosome being genetically inactive\nD. occurs in fruit flies but not in mammals\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "The pattern of inheritance shown by glucose-6-phosphate dehydrogenase (G6PD) deficiency is:",
+    "choices": [
+      "autosomal dominant.",
+      "autosomal recessive.",
+      "X-linked dominant.",
+      "X-linked recessive."
+    ],
+    "answer": "D",
+    "formatted": "The pattern of inheritance shown by glucose-6-phosphate dehydrogenase (G6PD) deficiency is:\nA. autosomal dominant.\nB. autosomal recessive.\nC. X-linked dominant.\nD. X-linked recessive.\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Homeobox sequences",
+    "choices": [
+      "are present in the genome of many animal species",
+      "are found in prokaryotes but not in eukaryotes",
+      "were identified as the integration sites for bacterial viruses",
+      "represent integration sites for transposable elements"
+    ],
+    "answer": "A",
+    "formatted": "Homeobox sequences\nA. are present in the genome of many animal species\nB. are found in prokaryotes but not in eukaryotes\nC. were identified as the integration sites for bacterial viruses\nD. represent integration sites for transposable elements\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Which of the following karyotypes is diagnostic of Down syndrome",
+    "choices": [
+      "46,XX,der(14;21)(q10;q10)pat+21",
+      "47,XY,+13",
+      "45,XX,rob,(14;21)(q10;q10)",
+      "46,XY,t(2;3)(q21;q12)"
+    ],
+    "answer": "A",
+    "formatted": "Which of the following karyotypes is diagnostic of Down syndrome\nA. 46,XX,der(14;21)(q10;q10)pat+21\nB. 47,XY,+13\nC. 45,XX,rob,(14;21)(q10;q10)\nD. 46,XY,t(2;3)(q21;q12)\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Nature is more important for ______ differences, while nurture has greater influence on ______ differences.",
+    "choices": [
+      "structural and anatomical; psychological and social",
+      "psychological and social; structural and anatomical",
+      "structural and psychological; anatomical and social",
+      "social and anatomical; psychological and structural"
+    ],
+    "answer": "A",
+    "formatted": "Nature is more important for ______ differences, while nurture has greater influence on ______ differences.\nA. structural and anatomical; psychological and social\nB. psychological and social; structural and anatomical\nC. structural and psychological; anatomical and social\nD. social and anatomical; psychological and structural\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Which of the following would result in Angelman syndrome?",
+    "choices": [
+      "Maternal UPD 15",
+      "Paternal UPD 15",
+      "Deletion in the paternally derived chromosome 15",
+      "A mutation in the SNRPN promoter"
+    ],
+    "answer": "B",
+    "formatted": "Which of the following would result in Angelman syndrome?\nA. Maternal UPD 15\nB. Paternal UPD 15\nC. Deletion in the paternally derived chromosome 15\nD. A mutation in the SNRPN promoter\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Recombinant alpha-iduronidase is used for the treatment of which disease/syndrome?",
+    "choices": [
+      "Fabry disease",
+      "Gaucher disease",
+      "Hurler syndrome",
+      "Pompe disease"
+    ],
+    "answer": "C",
+    "formatted": "Recombinant alpha-iduronidase is used for the treatment of which disease/syndrome?\nA. Fabry disease\nB. Gaucher disease\nC. Hurler syndrome\nD. Pompe disease\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Research from Moshe Szyf and colleagues has provided significant findings on the epigenetic influences of prenatal maternal stress. This work has been labelled ______.",
+    "choices": [
+      "developmental epigenetics",
+      "social epigenetics",
+      "fetal epigenetics",
+      "maternal epigenetics"
+    ],
+    "answer": "B",
+    "formatted": "Research from Moshe Szyf and colleagues has provided significant findings on the epigenetic influences of prenatal maternal stress. This work has been labelled ______.\nA. developmental epigenetics\nB. social epigenetics\nC. fetal epigenetics\nD. maternal epigenetics\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "If both parents are affected with the same autosomal recessive disorder then the probability that each of their children will be affected equals ___.",
+    "choices": [
+      "1 in 4",
+      "1 in 2",
+      "2 in 3",
+      "1"
+    ],
+    "answer": "D",
+    "formatted": "If both parents are affected with the same autosomal recessive disorder then the probability that each of their children will be affected equals ___.\nA. 1 in 4\nB. 1 in 2\nC. 2 in 3\nD. 1\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "The mutational mechanism in δβ-thalassaemia consists of:",
+    "choices": [
+      "a deletion.",
+      "a duplication.",
+      "an insertion.",
+      "a point mutation."
+    ],
+    "answer": "A",
+    "formatted": "The mutational mechanism in δβ-thalassaemia consists of:\nA. a deletion.\nB. a duplication.\nC. an insertion.\nD. a point mutation.\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Assuming Hardy-Weinberg equilibrium, the genoypte frequency of heterozygotes, if the frequency of the two alleles at the gene being studied are 0.6 and 0.4, will be:",
+    "choices": [
+      "0.8",
+      "0.64",
+      "0.48",
+      "0.32"
+    ],
+    "answer": "C",
+    "formatted": "Assuming Hardy-Weinberg equilibrium, the genoypte frequency of heterozygotes, if the frequency of the two alleles at the gene being studied are 0.6 and 0.4, will be:\nA. 0.8\nB. 0.64\nC. 0.48\nD. 0.32\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Familial hypercholesterolaemia is caused by mutations in the gene which encodes what?",
+    "choices": [
+      "High density lipoprotein",
+      "HMG-CoA reductase",
+      "Low density lipoprotein",
+      "Low density lipoprotein receptor"
+    ],
+    "answer": "D",
+    "formatted": "Familial hypercholesterolaemia is caused by mutations in the gene which encodes what?\nA. High density lipoprotein\nB. HMG-CoA reductase\nC. Low density lipoprotein\nD. Low density lipoprotein receptor\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "A cross between two true breeding lines one with dark blue flowers and one with bright white flowers produces F1 offspring that are light blue. When the F1 progeny are selfed a 1:2:1 ratio of dark blue to light blue to white flowers is observed. What genetic phenomenon is consistent with these results?",
+    "choices": [
+      "epistasis",
+      "incomplete dominance",
+      "codominance",
+      "inbreeding depression"
+    ],
+    "answer": "B",
+    "formatted": "A cross between two true breeding lines one with dark blue flowers and one with bright white flowers produces F1 offspring that are light blue. When the F1 progeny are selfed a 1:2:1 ratio of dark blue to light blue to white flowers is observed. What genetic phenomenon is consistent with these results?\nA. epistasis\nB. incomplete dominance\nC. codominance\nD. inbreeding depression\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "The proportion of babies that have an abnormality identifiable at birth is _____.",
+    "choices": [
+      "1 in 10",
+      "1 in 40",
+      "1 in 100",
+      "1 in 500"
+    ],
+    "answer": "B",
+    "formatted": "The proportion of babies that have an abnormality identifiable at birth is _____.\nA. 1 in 10\nB. 1 in 40\nC. 1 in 100\nD. 1 in 500\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "______ explained genetic disorders such as alkaptonuria and albinism.",
+    "choices": [
+      "Recessive inheritance has",
+      "Dominant genes have",
+      "X chromosomes",
+      "Y chromosomes"
+    ],
+    "answer": "A",
+    "formatted": "______ explained genetic disorders such as alkaptonuria and albinism.\nA. Recessive inheritance has\nB. Dominant genes have\nC. X chromosomes\nD. Y chromosomes\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Which of the following conditions shows anticipation in paternal transmission?",
+    "choices": [
+      "Huntington disease",
+      "Marfan syndrome",
+      "Cystic fibrosis",
+      "Fragile X syndrome"
+    ],
+    "answer": "A",
+    "formatted": "Which of the following conditions shows anticipation in paternal transmission?\nA. Huntington disease\nB. Marfan syndrome\nC. Cystic fibrosis\nD. Fragile X syndrome\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "A homeotic mutation is one which",
+    "choices": [
+      "is present in only one form in an individual",
+      "substitutes one body part for another in development",
+      "results in development of a tumor",
+      "is wild type at one temperature and abnormal at another"
+    ],
+    "answer": "B",
+    "formatted": "A homeotic mutation is one which\nA. is present in only one form in an individual\nB. substitutes one body part for another in development\nC. results in development of a tumor\nD. is wild type at one temperature and abnormal at another\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Which of the following is not a familial cancer syndrome",
+    "choices": [
+      "Familial adenomatous polyposis",
+      "Li-Fraumeni syndrome",
+      "Von Hippel-Lindau syndrome",
+      "Waardenburg syndrome"
+    ],
+    "answer": "D",
+    "formatted": "Which of the following is not a familial cancer syndrome\nA. Familial adenomatous polyposis\nB. Li-Fraumeni syndrome\nC. Von Hippel-Lindau syndrome\nD. Waardenburg syndrome\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "The epigenetic inheritance system has been described as ______ (Mayr and Provine, 1980).",
+    "choices": [
+      "genotype inheritance",
+      "soft inheritance",
+      "RNA inheritance",
+      "hard inheritance"
+    ],
+    "answer": "B",
+    "formatted": "The epigenetic inheritance system has been described as ______ (Mayr and Provine, 1980).\nA. genotype inheritance\nB. soft inheritance\nC. RNA inheritance\nD. hard inheritance\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Severe anaemia at birth is a feature of what?",
+    "choices": [
+      "Alpha-thalassaemia",
+      "Beta-thalassaemia",
+      "Hereditary persistence of fetal haemoglobin",
+      "Sickle cell disease"
+    ],
+    "answer": "A",
+    "formatted": "Severe anaemia at birth is a feature of what?\nA. Alpha-thalassaemia\nB. Beta-thalassaemia\nC. Hereditary persistence of fetal haemoglobin\nD. Sickle cell disease\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "If an X-linked recessive disorder is in Hardy-Weinberg equilibrium and the incidence in males equals 1 in 100, then the expected incidence of affected homozygous females would be _______.",
+    "choices": [
+      "1 in 1000",
+      "1 in 4000",
+      "1 in 10 000",
+      "1 in 40 000"
+    ],
+    "answer": "C",
+    "formatted": "If an X-linked recessive disorder is in Hardy-Weinberg equilibrium and the incidence in males equals 1 in 100, then the expected incidence of affected homozygous females would be _______.\nA. 1 in 1000\nB. 1 in 4000\nC. 1 in 10 000\nD. 1 in 40 000\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Tay-Sachs disease is caused by deficiency of _________________?",
+    "choices": [
+      "Alpha-L-iduronidase",
+      "Glucose-6-phosphatase",
+      "Hexosaminidase A",
+      "Homogentisic acid oxidase"
+    ],
+    "answer": "C",
+    "formatted": "Tay-Sachs disease is caused by deficiency of _________________?\nA. Alpha-L-iduronidase\nB. Glucose-6-phosphatase\nC. Hexosaminidase A\nD. Homogentisic acid oxidase\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "A nonsense mutation involves:",
+    "choices": [
+      "a regulatory sequence.",
+      "an AG splice acceptor site.",
+      "the creation of a different amino acid.",
+      "the creation of a stop codon."
+    ],
+    "answer": "D",
+    "formatted": "A nonsense mutation involves:\nA. a regulatory sequence.\nB. an AG splice acceptor site.\nC. the creation of a different amino acid.\nD. the creation of a stop codon.\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "The polymerase chain reaction or PCR is a technique that",
+    "choices": [
+      "was used to demonstrate DNA as the genetic material",
+      "is used to determine the content of minerals in a soil sample",
+      "uses short DNA primers and a thermostable DNA polymerase to replicate specific DNA sequences in vitro.",
+      "measures the ribosome transfer rate during translation"
+    ],
+    "answer": "C",
+    "formatted": "The polymerase chain reaction or PCR is a technique that\nA. was used to demonstrate DNA as the genetic material\nB. is used to determine the content of minerals in a soil sample\nC. uses short DNA primers and a thermostable DNA polymerase to replicate specific DNA sequences in vitro.\nD. measures the ribosome transfer rate during translation\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "The maternal serum level of alpha-fetoprotein (AFP) is lower than average in which situation?",
+    "choices": [
+      "Down syndrome",
+      "Exomphalos",
+      "Neural tube defects",
+      "Twin pregnancies"
+    ],
+    "answer": "A",
+    "formatted": "The maternal serum level of alpha-fetoprotein (AFP) is lower than average in which situation?\nA. Down syndrome\nB. Exomphalos\nC. Neural tube defects\nD. Twin pregnancies\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "______ has been described as the phenomenon by which one genotype can give rise to a range of different physiological or morphological states in response to different environmental conditions during development (West-Eberhard, 1989).",
+    "choices": [
+      "Fetal plasticity",
+      "The fetal origins hypothesis",
+      "Developmental plasticity",
+      "Environmental plasticity"
+    ],
+    "answer": "C",
+    "formatted": "______ has been described as the phenomenon by which one genotype can give rise to a range of different physiological or morphological states in response to different environmental conditions during development (West-Eberhard, 1989).\nA. Fetal plasticity\nB. The fetal origins hypothesis\nC. Developmental plasticity\nD. Environmental plasticity\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Arabidopsis is advantageous for plant genetic research because:",
+    "choices": [
+      "it is commercially important as a food crop",
+      "it is an endangered species",
+      "it is the closest to humans of any existing plant",
+      "it is a small plant with a small genome size which can be raised inexpensively"
+    ],
+    "answer": "D",
+    "formatted": "Arabidopsis is advantageous for plant genetic research because:\nA. it is commercially important as a food crop\nB. it is an endangered species\nC. it is the closest to humans of any existing plant\nD. it is a small plant with a small genome size which can be raised inexpensively\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "The proportion of genes shared by first cousins is on average ___.",
+    "choices": [
+      "1.0/2",
+      "1.0/4",
+      "1.0/8",
+      "1.0/16"
+    ],
+    "answer": "C",
+    "formatted": "The proportion of genes shared by first cousins is on average ___.\nA. 1.0/2\nB. 1.0/4\nC. 1.0/8\nD. 1.0/16\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Which of the following is not a tumour suppressor gene?",
+    "choices": [
+      "APC",
+      "NF1",
+      "RB1",
+      "RET"
+    ],
+    "answer": "D",
+    "formatted": "Which of the following is not a tumour suppressor gene?\nA. APC\nB. NF1\nC. RB1\nD. RET\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Which of the following is a feature of X-linked dominant inheritance?",
+    "choices": [
+      "Parental consanguinity",
+      "Male to male transmission",
+      "Transmission only by females",
+      "Transmitted by males only to females"
+    ],
+    "answer": "D",
+    "formatted": "Which of the following is a feature of X-linked dominant inheritance?\nA. Parental consanguinity\nB. Male to male transmission\nC. Transmission only by females\nD. Transmitted by males only to females\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "On average, how many fragments would a restriction enzyme which recognizes a specific 4 base sequence in DNA be expected to cleave a double-stranded bacteriophage with a genome size of 5,000 bp into?",
+    "choices": [
+      "about 2",
+      "about 4",
+      "about 20",
+      "about 50"
+    ],
+    "answer": "C",
+    "formatted": "On average, how many fragments would a restriction enzyme which recognizes a specific 4 base sequence in DNA be expected to cleave a double-stranded bacteriophage with a genome size of 5,000 bp into?\nA. about 2\nB. about 4\nC. about 20\nD. about 50\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Positional cloning refers to",
+    "choices": [
+      "using a selection procedure to clone a cDNA",
+      "cloning a portion of a gene using PCR",
+      "isolating a gene by PCR using primers from another species",
+      "mapping a gene to a chromosomal region and then identifying and cloning a genomic copy of the gene from the region"
+    ],
+    "answer": "D",
+    "formatted": "Positional cloning refers to\nA. using a selection procedure to clone a cDNA\nB. cloning a portion of a gene using PCR\nC. isolating a gene by PCR using primers from another species\nD. mapping a gene to a chromosomal region and then identifying and cloning a genomic copy of the gene from the region\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Plasmid vectors for cloning",
+    "choices": [
+      "can generally accommodate larger inserts than phage vectors can",
+      "grow within bacteria, and are present in bacterial colonies on an agar plate",
+      "can accommodate inserts of over 100 kilobases",
+      "include centromeres to allow propagation in yeast"
+    ],
+    "answer": "B",
+    "formatted": "Plasmid vectors for cloning\nA. can generally accommodate larger inserts than phage vectors can\nB. grow within bacteria, and are present in bacterial colonies on an agar plate\nC. can accommodate inserts of over 100 kilobases\nD. include centromeres to allow propagation in yeast\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Transcriptional activator proteins",
+    "choices": [
+      "bind regions near a eukaryotic gene and allow an RNA polymerase to transcribe a gene",
+      "bind to ribosomes to activate the production of specific proteins",
+      "are produced during an infection of bacteria by a phage",
+      "are essential to function of transfer RNAs during translation"
+    ],
+    "answer": "A",
+    "formatted": "Transcriptional activator proteins\nA. bind regions near a eukaryotic gene and allow an RNA polymerase to transcribe a gene\nB. bind to ribosomes to activate the production of specific proteins\nC. are produced during an infection of bacteria by a phage\nD. are essential to function of transfer RNAs during translation\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Assuming that the level of glucose is low, a mutation in the repressor associated with the lac operon of E. coli which prevents binding of the repressor to lactose should result in: ",
+    "choices": [
+      "constitutive expression of the lac operon genes",
+      "lack of expression or reduced expression of the lac operon genes under all circumstances",
+      "expression of the genes only when lactose is present",
+      "expression of the genes only when lactose is absent"
+    ],
+    "answer": "B",
+    "formatted": "Assuming that the level of glucose is low, a mutation in the repressor associated with the lac operon of E. coli which prevents binding of the repressor to lactose should result in: \nA. constitutive expression of the lac operon genes\nB. lack of expression or reduced expression of the lac operon genes under all circumstances\nC. expression of the genes only when lactose is present\nD. expression of the genes only when lactose is absent\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "In meiosis, recombination occurs in:",
+    "choices": [
+      "Metaphase I.",
+      "Prophase I.",
+      "Metaphase II.",
+      "Prophase II."
+    ],
+    "answer": "B",
+    "formatted": "In meiosis, recombination occurs in:\nA. Metaphase I.\nB. Prophase I.\nC. Metaphase II.\nD. Prophase II.\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Leber's hereditary optic atrophy is caused by a mutation in:",
+    "choices": [
+      "chromosome 12.",
+      "chromosome 18.",
+      "chromosome 21.",
+      "mitochondrial DNA."
+    ],
+    "answer": "D",
+    "formatted": "Leber's hereditary optic atrophy is caused by a mutation in:\nA. chromosome 12.\nB. chromosome 18.\nC. chromosome 21.\nD. mitochondrial DNA.\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Regarding exons, which, if any, of the following statements is correct?",
+    "choices": [
+      "Some exons in protein-coding genes consist of noncoding DNA.",
+      "The first exon of a protein-coding gene always contains the translational start site.",
+      "The last exon of a protein-coding gene always contains the normal termination codon.",
+      "A coding exon is always translated in just one of the three possible forward reading frames."
+    ],
+    "answer": "A",
+    "formatted": "Regarding exons, which, if any, of the following statements is correct?\nA. Some exons in protein-coding genes consist of noncoding DNA.\nB. The first exon of a protein-coding gene always contains the translational start site.\nC. The last exon of a protein-coding gene always contains the normal termination codon.\nD. A coding exon is always translated in just one of the three possible forward reading frames.\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "In humans, each cell normally contains ______ of chromosomes.",
+    "choices": [
+      "11 pairs",
+      "23 pairs",
+      "32 pairs",
+      "46 pairs"
+    ],
+    "answer": "B",
+    "formatted": "In humans, each cell normally contains ______ of chromosomes.\nA. 11 pairs\nB. 23 pairs\nC. 32 pairs\nD. 46 pairs\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "An increase in the inbreeding coefficient, F, is likely to result in:",
+    "choices": [
+      "reduced likelihood of heterozygotes being present in a population",
+      "higher proportion of genes that show linkage",
+      "higher proportion of genes with introns",
+      "higher level of difference between RNA molecules in two daughter cells"
+    ],
+    "answer": "A",
+    "formatted": "An increase in the inbreeding coefficient, F, is likely to result in:\nA. reduced likelihood of heterozygotes being present in a population\nB. higher proportion of genes that show linkage\nC. higher proportion of genes with introns\nD. higher level of difference between RNA molecules in two daughter cells\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Which of the following findings on prenatal ultrasound examination would not raise suspicion of a chromosome abnormality?",
+    "choices": [
+      "Duodenal atresia",
+      "Holoprosencephaly",
+      "Hydrops fetalis",
+      "Monozygotic twins"
+    ],
+    "answer": "D",
+    "formatted": "Which of the following findings on prenatal ultrasound examination would not raise suspicion of a chromosome abnormality?\nA. Duodenal atresia\nB. Holoprosencephaly\nC. Hydrops fetalis\nD. Monozygotic twins\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "The likelihood of an individual in a population carrying two specific alleles of a human DNA marker, each of which has a frequency of 0.2, will be:",
+    "choices": [
+      "0.4",
+      "0.32",
+      "0.08",
+      "0.02"
+    ],
+    "answer": "C",
+    "formatted": "The likelihood of an individual in a population carrying two specific alleles of a human DNA marker, each of which has a frequency of 0.2, will be:\nA. 0.4\nB. 0.32\nC. 0.08\nD. 0.02\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "An Hfr strain of E. coli contains:",
+    "choices": [
+      "a vector of yeast or bacterial origin which is used to make many copies of a particular DNA sequence",
+      "a bacterial chromosome with a human gene inserted",
+      "a bacterial chromosome with the F factor inserted",
+      "a human chromosome with a transposable element inserted"
+    ],
+    "answer": "C",
+    "formatted": "An Hfr strain of E. coli contains:\nA. a vector of yeast or bacterial origin which is used to make many copies of a particular DNA sequence\nB. a bacterial chromosome with a human gene inserted\nC. a bacterial chromosome with the F factor inserted\nD. a human chromosome with a transposable element inserted\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Male to male transmission is a key feature of which pattern of inheritance?",
+    "choices": [
+      "Autosomal dominant",
+      "Autosomal recessive",
+      "X-linked dominant",
+      "X-linked recessive"
+    ],
+    "answer": "A",
+    "formatted": "Male to male transmission is a key feature of which pattern of inheritance?\nA. Autosomal dominant\nB. Autosomal recessive\nC. X-linked dominant\nD. X-linked recessive\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Simple tandem repeat polymorphisms in humans are most useful for",
+    "choices": [
+      "solving criminal and paternity cases",
+      "reconstructing the relationships of humans and chimps.",
+      "estimating relationships of humans and Neanderthals",
+      "transferring disease resistance factors into bone marrow cells"
+    ],
+    "answer": "A",
+    "formatted": "Simple tandem repeat polymorphisms in humans are most useful for\nA. solving criminal and paternity cases\nB. reconstructing the relationships of humans and chimps.\nC. estimating relationships of humans and Neanderthals\nD. transferring disease resistance factors into bone marrow cells\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Which of the following disorders is not suitable for population carrier screening?",
+    "choices": [
+      "Cystic fibrosis",
+      "Oculocutaneous albinism",
+      "Sickle cell disease",
+      "Tay-Sachs disease"
+    ],
+    "answer": "B",
+    "formatted": "Which of the following disorders is not suitable for population carrier screening?\nA. Cystic fibrosis\nB. Oculocutaneous albinism\nC. Sickle cell disease\nD. Tay-Sachs disease\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Which of the following disorders does not show X-linked inheritance?",
+    "choices": [
+      "Duchenne muscular dystrophy",
+      "Tay-Sachs disease",
+      "Haemophilia A",
+      "Haemophilia B"
+    ],
+    "answer": "B",
+    "formatted": "Which of the following disorders does not show X-linked inheritance?\nA. Duchenne muscular dystrophy\nB. Tay-Sachs disease\nC. Haemophilia A\nD. Haemophilia B\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "The most common chromosome abnormality in first trimester spontaneous miscarriages is:",
+    "choices": [
+      "trisomy.",
+      "monosomy.",
+      "triploidy.",
+      "tetrasomy."
+    ],
+    "answer": "A",
+    "formatted": "The most common chromosome abnormality in first trimester spontaneous miscarriages is:\nA. trisomy.\nB. monosomy.\nC. triploidy.\nD. tetrasomy.\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Which of the following karyotypes is not compatible with survival to birth?",
+    "choices": [
+      "47,XY,+13",
+      "47,XX,+18",
+      "47,XY,+21",
+      "45,Y"
+    ],
+    "answer": "D",
+    "formatted": "Which of the following karyotypes is not compatible with survival to birth?\nA. 47,XY,+13\nB. 47,XX,+18\nC. 47,XY,+21\nD. 45,Y\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Male breast cancer is associated with mutations in ___.",
+    "choices": [
+      "BRCA1",
+      "BRCA2",
+      "NF1",
+      "RET"
+    ],
+    "answer": "B",
+    "formatted": "Male breast cancer is associated with mutations in ___.\nA. BRCA1\nB. BRCA2\nC. NF1\nD. RET\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Pseudocholinesterase deficiency is associated with increased sensitivity to what?",
+    "choices": [
+      "Fava beans",
+      "Halothane",
+      "Primaquine",
+      "Succinylcholine"
+    ],
+    "answer": "D",
+    "formatted": "Pseudocholinesterase deficiency is associated with increased sensitivity to what?\nA. Fava beans\nB. Halothane\nC. Primaquine\nD. Succinylcholine\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "The most common cystic fibrosis mutation consists of:",
+    "choices": [
+      "a deletion.",
+      "a duplication.",
+      "a substitution.",
+      "an insertion."
+    ],
+    "answer": "A",
+    "formatted": "The most common cystic fibrosis mutation consists of:\nA. a deletion.\nB. a duplication.\nC. a substitution.\nD. an insertion.\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "The normal human chromosome diploid number is:",
+    "choices": [
+      "23",
+      "24",
+      "46",
+      "48"
+    ],
+    "answer": "C",
+    "formatted": "The normal human chromosome diploid number is:\nA. 23\nB. 24\nC. 46\nD. 48\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Advantages of using adenoviruses for gene therapy include:",
+    "choices": [
+      "long term expression.",
+      "low risk of insertional mutagenesis.",
+      "low immunogenecity.",
+      "easy assembly."
+    ],
+    "answer": "B",
+    "formatted": "Advantages of using adenoviruses for gene therapy include:\nA. long term expression.\nB. low risk of insertional mutagenesis.\nC. low immunogenecity.\nD. easy assembly.\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Which of the following statements about Hirschsprung disease is incorrect?",
+    "choices": [
+      "It shows an association with Down syndrome.",
+      "It is more common in girls than in boys.",
+      "RET is a major susceptibility gene.",
+      "Recurrence risks are greater for long segment disease than for short segment disease."
+    ],
+    "answer": "B",
+    "formatted": "Which of the following statements about Hirschsprung disease is incorrect?\nA. It shows an association with Down syndrome.\nB. It is more common in girls than in boys.\nC. RET is a major susceptibility gene.\nD. Recurrence risks are greater for long segment disease than for short segment disease.\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Which of the following conditions is caused by a trinucleotide (triplet) repeat expansion?",
+    "choices": [
+      "Cystic fibrosis",
+      "Duchenne muscular dystrophy",
+      "Huntington disease",
+      "Osteogenesis imperfecta"
+    ],
+    "answer": "C",
+    "formatted": "Which of the following conditions is caused by a trinucleotide (triplet) repeat expansion?\nA. Cystic fibrosis\nB. Duchenne muscular dystrophy\nC. Huntington disease\nD. Osteogenesis imperfecta\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Which of the following causes female pseudohermaphroditism?",
+    "choices": [
+      "Androgen insensitivity",
+      "Campomelic dysplasia",
+      "Congenital adrenal hyperplasia",
+      "Klinefelter syndrome"
+    ],
+    "answer": "C",
+    "formatted": "Which of the following causes female pseudohermaphroditism?\nA. Androgen insensitivity\nB. Campomelic dysplasia\nC. Congenital adrenal hyperplasia\nD. Klinefelter syndrome\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Which component of transcribed RNA in eukaryotes is present in the initial transcript but is removed before translation occurs?",
+    "choices": [
+      "Intron",
+      "3’ Poly A tail",
+      "Ribosome binding site",
+      "5’ cap"
+    ],
+    "answer": "A",
+    "formatted": "Which component of transcribed RNA in eukaryotes is present in the initial transcript but is removed before translation occurs?\nA. Intron\nB. 3’ Poly A tail\nC. Ribosome binding site\nD. 5’ cap\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Which of the following is not a recognized complication of cystic fibrosis?",
+    "choices": [
+      "Cancer of the oesophagus",
+      "Congenital absence of the vas deferens",
+      "Diabetes mellitus",
+      "Liver cirrhosis"
+    ],
+    "answer": "A",
+    "formatted": "Which of the following is not a recognized complication of cystic fibrosis?\nA. Cancer of the oesophagus\nB. Congenital absence of the vas deferens\nC. Diabetes mellitus\nD. Liver cirrhosis\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Which of the following diagnostic techniques is of no value for the diagnosis of neural tube defects?",
+    "choices": [
+      "Amniocentesis",
+      "Chorion villus sampling (CVS)",
+      "Maternal serum screening",
+      "Ultrasonography"
+    ],
+    "answer": "B",
+    "formatted": "Which of the following diagnostic techniques is of no value for the diagnosis of neural tube defects?\nA. Amniocentesis\nB. Chorion villus sampling (CVS)\nC. Maternal serum screening\nD. Ultrasonography\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Which of the following conditions is a peroxisomal disorder?",
+    "choices": [
+      "Acute intermittent porphyria",
+      "Maple syrup urine disease",
+      "Medium chain acyl-CoA dehydrogenase deficiency",
+      "Zellweger syndrome"
+    ],
+    "answer": "D",
+    "formatted": "Which of the following conditions is a peroxisomal disorder?\nA. Acute intermittent porphyria\nB. Maple syrup urine disease\nC. Medium chain acyl-CoA dehydrogenase deficiency\nD. Zellweger syndrome\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Marked microsatellite instability is a feature of:",
+    "choices": [
+      "familial adenomatous polyposis.",
+      "hereditary non-polyposis colon cancer (HNPCC).",
+      "multiple endocrine adenomatosis type 2.",
+      "neurofibromatosis 1."
+    ],
+    "answer": "B",
+    "formatted": "Marked microsatellite instability is a feature of:\nA. familial adenomatous polyposis.\nB. hereditary non-polyposis colon cancer (HNPCC).\nC. multiple endocrine adenomatosis type 2.\nD. neurofibromatosis 1.\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "The common mutation in α-thalassaemia consists of:",
+    "choices": [
+      "a deletion.",
+      "a duplication.",
+      "an insertion.",
+      "a point mutation."
+    ],
+    "answer": "A",
+    "formatted": "The common mutation in α-thalassaemia consists of:\nA. a deletion.\nB. a duplication.\nC. an insertion.\nD. a point mutation.\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "A baby born with pulmonary hypoplasia secondary to oligohydramnios caused by renal agenesis would be classified as having:",
+    "choices": [
+      "an association.",
+      "a dysplasia.",
+      "a sequence.",
+      "a syndrome."
+    ],
+    "answer": "C",
+    "formatted": "A baby born with pulmonary hypoplasia secondary to oligohydramnios caused by renal agenesis would be classified as having:\nA. an association.\nB. a dysplasia.\nC. a sequence.\nD. a syndrome.\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "The ______ is the set of observable characteristics and is the sum of genetic and environmental effects.",
+    "choices": [
+      "genotype",
+      "phenotype",
+      "both genotype and phenotype",
+      "neither genotype or phenotype"
+    ],
+    "answer": "B",
+    "formatted": "The ______ is the set of observable characteristics and is the sum of genetic and environmental effects.\nA. genotype\nB. phenotype\nC. both genotype and phenotype\nD. neither genotype or phenotype\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Which of the following trisomy karyotypes has the mildest effect on human development?",
+    "choices": [
+      "47,XXX",
+      "47,XXY",
+      "47,XX,+13",
+      "47,XY,+21"
+    ],
+    "answer": "A",
+    "formatted": "Which of the following trisomy karyotypes has the mildest effect on human development?\nA. 47,XXX\nB. 47,XXY\nC. 47,XX,+13\nD. 47,XY,+21\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Mutations that cause achondroplasia exert an effect which can be classified as:",
+    "choices": [
+      "dominant negative.",
+      "gain-of-function.",
+      "haploinsufficiency.",
+      "loss-of-function."
+    ],
+    "answer": "B",
+    "formatted": "Mutations that cause achondroplasia exert an effect which can be classified as:\nA. dominant negative.\nB. gain-of-function.\nC. haploinsufficiency.\nD. loss-of-function.\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "The presence of two or more cell lines from different zygotes in a single individual is known as:",
+    "choices": [
+      "mosaicism.",
+      "diploidy.",
+      "aneuploidy.",
+      "chimaerism."
+    ],
+    "answer": "D",
+    "formatted": "The presence of two or more cell lines from different zygotes in a single individual is known as:\nA. mosaicism.\nB. diploidy.\nC. aneuploidy.\nD. chimaerism.\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "The risk for miscarriage associated with amniocentesis is approximately ____.",
+    "choices": [
+      "1 in 10",
+      "1 in 50",
+      "1 in 100 to 1 in 200",
+      "1 in 1000"
+    ],
+    "answer": "C",
+    "formatted": "The risk for miscarriage associated with amniocentesis is approximately ____.\nA. 1 in 10\nB. 1 in 50\nC. 1 in 100 to 1 in 200\nD. 1 in 1000\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Autozygosity mapping is used to map disorders that show which pattern of inheritance?",
+    "choices": [
+      "Autosomal dominant",
+      "Autosomal recessive",
+      "X-linked dominant",
+      "X-linked recessive"
+    ],
+    "answer": "B",
+    "formatted": "Autozygosity mapping is used to map disorders that show which pattern of inheritance?\nA. Autosomal dominant\nB. Autosomal recessive\nC. X-linked dominant\nD. X-linked recessive\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Consanguinity shows a strong association with which pattern of inheritance?",
+    "choices": [
+      "Autosomal dominant",
+      "Autosomal recessive",
+      "X-linked dominant",
+      "X-linked recessive"
+    ],
+    "answer": "B",
+    "formatted": "Consanguinity shows a strong association with which pattern of inheritance?\nA. Autosomal dominant\nB. Autosomal recessive\nC. X-linked dominant\nD. X-linked recessive\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Most new mutations appear to be",
+    "choices": [
+      "beneficial",
+      "neutral or deleterious",
+      "present in homozygotes rather than heterozygotes",
+      "detectable using allozyme studies (protein electrophoresis)"
+    ],
+    "answer": "B",
+    "formatted": "Most new mutations appear to be\nA. beneficial\nB. neutral or deleterious\nC. present in homozygotes rather than heterozygotes\nD. detectable using allozyme studies (protein electrophoresis)\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Twin studies in humans are useful because",
+    "choices": [
+      "they allow genetic as opposed to environmental influences on variation in a trait to be estimated",
+      "cloning of genes is facilitated by the presence of extra copies",
+      "they allow improved expression of genes",
+      "twins have a greater likelihood of being heterozygous"
+    ],
+    "answer": "A",
+    "formatted": "Twin studies in humans are useful because\nA. they allow genetic as opposed to environmental influences on variation in a trait to be estimated\nB. cloning of genes is facilitated by the presence of extra copies\nC. they allow improved expression of genes\nD. twins have a greater likelihood of being heterozygous\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Complete the following sentence. The Philadelphia chromosome:",
+    "choices": [
+      "is an example of gene amplification.",
+      "is a product of a reciprocal translocation.",
+      "causes Burkitt's lymphoma.",
+      "causes retinoblastoma."
+    ],
+    "answer": "B",
+    "formatted": "Complete the following sentence. The Philadelphia chromosome:\nA. is an example of gene amplification.\nB. is a product of a reciprocal translocation.\nC. causes Burkitt's lymphoma.\nD. causes retinoblastoma.\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Enzyme assay can be used to identify carriers of:",
+    "choices": [
+      "Cystic fibrosis.",
+      "Fragile X syndrome.",
+      "Oculocutaneous albinism.",
+      "Tay-Sachs disease."
+    ],
+    "answer": "D",
+    "formatted": "Enzyme assay can be used to identify carriers of:\nA. Cystic fibrosis.\nB. Fragile X syndrome.\nC. Oculocutaneous albinism.\nD. Tay-Sachs disease.\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "A high blood ammonia level occurs in:",
+    "choices": [
+      "galactosaemia.",
+      "Hurler's syndrome.",
+      "ornithine transcarbamylase (OTC) deficiency.",
+      "phenylketonuria."
+    ],
+    "answer": "C",
+    "formatted": "A high blood ammonia level occurs in:\nA. galactosaemia.\nB. Hurler's syndrome.\nC. ornithine transcarbamylase (OTC) deficiency.\nD. phenylketonuria.\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "In genome-wide association studies, known SNPs explain ______ of the variation in body mass index despite the evidence of greater than 50% heritability from twin and family studies.",
+    "choices": [
+      "only 5%",
+      "less than 1%",
+      "only 13%",
+      "less than 2%"
+    ],
+    "answer": "D",
+    "formatted": "In genome-wide association studies, known SNPs explain ______ of the variation in body mass index despite the evidence of greater than 50% heritability from twin and family studies.\nA. only 5%\nB. less than 1%\nC. only 13%\nD. less than 2%\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Differential distribution of substances in the egg most typically results in:",
+    "choices": [
+      "differences in gene expression which may establish a pattern in the embryo as the cells divide",
+      "amplification of specific genes during development",
+      "development of polyploid tissues",
+      "loss of specific genes during development"
+    ],
+    "answer": "A",
+    "formatted": "Differential distribution of substances in the egg most typically results in:\nA. differences in gene expression which may establish a pattern in the embryo as the cells divide\nB. amplification of specific genes during development\nC. development of polyploid tissues\nD. loss of specific genes during development\n"
+  },
+  {
+    "task": "medical_genetics",
+    "question": "Which of the following conditions is not caused by a mutation in FGFR3?",
+    "choices": [
+      "Achondroplasia",
+      "Crouzon syndrome",
+      "Thanatophoric dysplasia",
+      "Waardenburg syndrome"
+    ],
+    "answer": "D",
+    "formatted": "Which of the following conditions is not caused by a mutation in FGFR3?\nA. Achondroplasia\nB. Crouzon syndrome\nC. Thanatophoric dysplasia\nD. Waardenburg syndrome\n"
+  }
+]

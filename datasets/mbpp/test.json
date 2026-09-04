@@ -1,0 +1,2502 @@
+[
+  {
+    "task_id": 11,
+    "prompt": "Write a python function to remove first and last occurrence of a given character from the string.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 12,
+    "prompt": "Write a function to sort a given matrix in ascending order according to the sum of its rows.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 13,
+    "prompt": "Write a function to count the most common words in a dictionary.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 14,
+    "prompt": "Write a python function to find the volume of a triangular prism.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 15,
+    "prompt": "Write a function to split a string at lowercase letters.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 16,
+    "prompt": "Write a function to find sequences of lowercase letters joined with an underscore.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 17,
+    "prompt": "Write a function to find the perimeter of a square.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 18,
+    "prompt": "Write a function to remove characters from the first string which are present in the second string.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 19,
+    "prompt": "Write a function to find whether a given array of integers contains any duplicate element.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 20,
+    "prompt": "Write a function to check if the given number is woodball or not.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 21,
+    "prompt": "Write a function to find m number of multiples of n.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 22,
+    "prompt": "Write a function to find the first duplicate element in a given array of integers.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 23,
+    "prompt": "Write a python function to find the maximum sum of elements of list in a list of lists.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 24,
+    "prompt": "Write a function to convert the given binary number to its decimal equivalent.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 25,
+    "prompt": "Write a python function to find the product of non-repeated elements in a given array.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 26,
+    "prompt": "Write a function to check if the given tuple list has all k elements.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 27,
+    "prompt": "Write a python function to remove all digits from a list of strings.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 28,
+    "prompt": "Write a python function to find binomial co-efficient.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 29,
+    "prompt": "Write a python function to find the element occurring odd number of times.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 30,
+    "prompt": "Write a python function to count all the substrings starting and ending with same characters.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 31,
+    "prompt": "Write a function to find the top k integers that occur most frequently from given lists of sorted and distinct integers using heap queue algorithm.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 32,
+    "prompt": "Write a python function to find the largest prime factor of a given number.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 33,
+    "prompt": "Write a python function to convert a decimal number to binary number.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 34,
+    "prompt": "Write a python function to find the missing number in a sorted array.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 35,
+    "prompt": "Write a function to find the n-th rectangular number.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 36,
+    "prompt": "Write a python function to find the nth digit in the proper fraction of two given numbers.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 37,
+    "prompt": "Write a function to sort a given mixed list of integers and strings.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 38,
+    "prompt": "Write a function to find the division of first even and odd number of a given list.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 39,
+    "prompt": "Write a function to check if the letters of a given string can be rearranged so that two characters that are adjacent to each other are different.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 40,
+    "prompt": "Write a function to find frequency of the elements in a given list of lists using collections module.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 41,
+    "prompt": "Write a function to filter even numbers using lambda function.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 42,
+    "prompt": "Write a python function to find the sum of repeated elements in a given array.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 43,
+    "prompt": "Write a function to find sequences of lowercase letters joined with an underscore using regex.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 44,
+    "prompt": "Write a function that matches a word at the beginning of a string.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 45,
+    "prompt": "Write a function to find the gcd of the given array elements.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 46,
+    "prompt": "Write a python function to determine whether all the numbers are different from each other are not.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 47,
+    "prompt": "Write a python function to find the last digit when factorial of a divides factorial of b.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 48,
+    "prompt": "Write a python function to set all odd bits of a given number.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 49,
+    "prompt": "Write a function to extract every first or specified element from a given two-dimensional list.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 50,
+    "prompt": "Write a function to find the list with minimum length using lambda function.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 51,
+    "prompt": "Write a function to print check if the triangle is equilateral or not.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 52,
+    "prompt": "Write a function to caluclate area of a parallelogram.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 53,
+    "prompt": "Write a python function to check whether the first and last characters of a given string are equal or not.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 54,
+    "prompt": "Write a function to sort the given array by using counting sort.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 55,
+    "prompt": "Write a function to find t-nth term of geometric series.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 56,
+    "prompt": "Write a python function to check if a given number is one less than twice its reverse.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 57,
+    "prompt": "Write a python function to find the largest number that can be formed with the given digits.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 58,
+    "prompt": "Write a python function to check whether the given two integers have opposite sign or not.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 59,
+    "prompt": "Write a function to find the nth octagonal number.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 60,
+    "prompt": "Write a function to find the maximum length of the subsequence with difference between adjacent elements for the given array.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 61,
+    "prompt": "Write a python function to count number of substrings with the sum of digits equal to their length.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 62,
+    "prompt": "Write a python function to find smallest number in a list.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 63,
+    "prompt": "Write a function to find the maximum difference between available pairs in the given tuple list.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 64,
+    "prompt": "Write a function to sort a list of tuples using lambda.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 65,
+    "prompt": "Write a function of recursion list sum.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 66,
+    "prompt": "Write a python function to count positive numbers in a list.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 67,
+    "prompt": "Write a function to find the number of ways to partition a set of bell numbers.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 68,
+    "prompt": "Write a python function to check whether the given array is monotonic or not.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 69,
+    "prompt": "Write a function to check whether a list contains the given sublist or not.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 70,
+    "prompt": "Write a function to find whether all the given tuples have equal length or not.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 71,
+    "prompt": "Write a function to sort a list of elements using comb sort.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 72,
+    "prompt": "Write a python function to check whether the given number can be represented as difference of two squares or not.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 73,
+    "prompt": "Write a function to split the given string with multiple delimiters by using regex.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 74,
+    "prompt": "Write a function to check whether it follows the sequence given in the patterns array.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 75,
+    "prompt": "Write a function to find tuples which have all elements divisible by k from the given list of tuples.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 76,
+    "prompt": "Write a python function to count the number of squares in a rectangle.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 77,
+    "prompt": "Write a python function to find the difference between sum of even and odd digits.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 78,
+    "prompt": "Write a python function to find number of integers with odd number of set bits.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 79,
+    "prompt": "Write a python function to check whether the length of the word is odd or not.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 80,
+    "prompt": "Write a function to find the nth tetrahedral number.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 81,
+    "prompt": "Write a function to zip the two given tuples.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 82,
+    "prompt": "Write a function to find the volume of a sphere.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 83,
+    "prompt": "Write a python function to find the character made by adding all the characters of the given string.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 84,
+    "prompt": "Write a function to find the n-th number in newman conway sequence.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 85,
+    "prompt": "Write a function to find the surface area of a sphere.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 86,
+    "prompt": "Write a function to find nth centered hexagonal number.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 87,
+    "prompt": "Write a function to merge three dictionaries into a single expression.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 88,
+    "prompt": "Write a function to get the frequency of the elements in a list.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 89,
+    "prompt": "Write a function to find the closest smaller number than n.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 90,
+    "prompt": "Write a python function to find the length of the longest word.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 91,
+    "prompt": "Write a function to check if a substring is present in a given list of string values.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 92,
+    "prompt": "Write a function to check whether the given number is undulating or not.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 93,
+    "prompt": "Write a function to calculate the value of 'a' to the power 'b'.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 94,
+    "prompt": "Write a function to extract the index minimum value record from the given tuples.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 95,
+    "prompt": "Write a python function to find the minimum length of sublist.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 96,
+    "prompt": "Write a python function to find the number of divisors of a given integer.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 97,
+    "prompt": "Write a function to find frequency count of list of lists.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 98,
+    "prompt": "Write a function to multiply all the numbers in a list and divide with the length of the list.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 99,
+    "prompt": "Write a function to convert the given decimal number to its binary equivalent.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 100,
+    "prompt": "Write a function to find the next smallest palindrome of a specified number.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 101,
+    "prompt": "Write a function to find the kth element in the given array.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 102,
+    "prompt": "Write a function to convert snake case string to camel case string.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 103,
+    "prompt": "Write a function to find eulerian number a(n, m).",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 104,
+    "prompt": "Write a function to sort each sublist of strings in a given list of lists using lambda function.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 105,
+    "prompt": "Write a python function to count true booleans in the given list.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 106,
+    "prompt": "Write a function to add the given list to the given tuples.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 107,
+    "prompt": "Write a python function to count hexadecimal numbers for a given range.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 108,
+    "prompt": "Write a function to merge multiple sorted inputs into a single sorted iterator using heap queue algorithm.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 109,
+    "prompt": "Write a python function to find the count of rotations of a binary string with odd value.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 110,
+    "prompt": "Write a function to extract the ranges that are missing from the given list with the given start range and end range values.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 111,
+    "prompt": "Write a function to find common elements in given nested lists. * list item * list item * list item * list item",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 112,
+    "prompt": "Write a python function to find the perimeter of a cylinder.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 113,
+    "prompt": "Write a function to check if a string represents an integer or not.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 114,
+    "prompt": "Write a function to assign frequency to each tuple in the given tuple list.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 115,
+    "prompt": "Write a function to check whether all dictionaries in a list are empty or not.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 116,
+    "prompt": "Write a function to convert a given tuple of positive integers into an integer.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 117,
+    "prompt": "Write a function to convert all possible convertible elements in the list to float.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 118,
+    "prompt": "[link text](https:// [link text](https:// [link text](https://)))write a function to convert a string to a list.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 119,
+    "prompt": "Write a python function to find the element that appears only once in a sorted array.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 120,
+    "prompt": "Write a function to find the maximum product from the pairs of tuples within a given list.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 121,
+    "prompt": "Write a function to find the triplet with sum of the given array",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 122,
+    "prompt": "Write a function to find n’th smart number.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 123,
+    "prompt": "Write a function to sum all amicable numbers from 1 to a specified number.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 124,
+    "prompt": "Write a function to get the angle of a complex number.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 125,
+    "prompt": "Write a function to find the maximum difference between the number of 0s and number of 1s in any sub-string of the given binary string.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 126,
+    "prompt": "Write a python function to find the sum of common divisors of two given numbers.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 127,
+    "prompt": "Write a function to multiply two integers without using the * operator in python.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 128,
+    "prompt": "Write a function to shortlist words that are longer than n from a given list of words.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 129,
+    "prompt": "Write a function to calculate magic square.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 130,
+    "prompt": "Write a function to find the item with maximum frequency in a given list.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 131,
+    "prompt": "Write a python function to reverse only the vowels of a given string.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 132,
+    "prompt": "Write a function to convert tuple to a string.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 133,
+    "prompt": "Write a function to calculate the sum of the negative numbers of a given list of numbers using lambda function.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 134,
+    "prompt": "Write a python function to check whether the last element of given array is even or odd after performing an operation p times.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 135,
+    "prompt": "Write a function to find the nth hexagonal number.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 136,
+    "prompt": "Write a function to calculate electricity bill.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 137,
+    "prompt": "Write a function to find the ration of zeroes in an array of integers.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 138,
+    "prompt": "Write a python function to check whether the given number can be represented as sum of non-zero powers of 2 or not.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 139,
+    "prompt": "Write a function to find the circumference of a circle.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 140,
+    "prompt": "Write a function to extract elements that occur singly in the given tuple list.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 141,
+    "prompt": "Write a function to sort a list of elements using pancake sort.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 142,
+    "prompt": "Write a function to count the same pair in three given lists.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 143,
+    "prompt": "Write a function to find number of lists present in the given tuple.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 144,
+    "prompt": "Write a python function to find the sum of absolute differences in all pairs of the given array.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 145,
+    "prompt": "Write a python function to find the maximum difference between any two elements in a given array.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 146,
+    "prompt": "Write a function to find the ascii value of total characters in a string.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 147,
+    "prompt": "Write a function to find the maximum total path sum in the given triangle.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 148,
+    "prompt": "Write a function to divide a number into two parts such that the sum of digits is maximum.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 149,
+    "prompt": "Write a function to find the longest subsequence such that the difference between adjacents is one for the given array.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 150,
+    "prompt": "Write a python function to find whether the given number is present in the infinite sequence or not.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 151,
+    "prompt": "Write a python function to check whether the given number is co-prime or not.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 152,
+    "prompt": "Write a function to sort the given array by using merge sort.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 153,
+    "prompt": "Write a function to find the vertex of a parabola.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 154,
+    "prompt": "Write a function to extract every specified element from a given two dimensional list.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 155,
+    "prompt": "Write a python function to toggle all even bits of a given number.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 156,
+    "prompt": "Write a function to convert a tuple of string values to a tuple of integer values.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 157,
+    "prompt": "Write a function to reflect the run-length encoding from a list.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 158,
+    "prompt": "Write a python function to find k number of operations required to make all elements equal.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 159,
+    "prompt": "Write a function to print the season for the given month and day.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 160,
+    "prompt": "Write a function to find x and y that satisfies ax + by = n.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 161,
+    "prompt": "Write a function to remove all elements from a given list present in another list.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 162,
+    "prompt": "Write a function to calculate the sum of the positive integers of n+(n-2)+(n-4)... (until n-x =< 0).",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 163,
+    "prompt": "Write a function to calculate the area of a regular polygon.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 164,
+    "prompt": "Write a python function to check whether the sum of divisors are same or not.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 165,
+    "prompt": "Write a python function to count characters at same position in a given string (lower and uppercase characters) as in english alphabet.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 166,
+    "prompt": "Write a python function to count the pairs with xor as an even number.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 167,
+    "prompt": "Write a python function to find smallest power of 2 greater than or equal to n.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 168,
+    "prompt": "Write a python function to find the frequency of a number in a given array.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 169,
+    "prompt": "Write a function to calculate the nth pell number.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 170,
+    "prompt": "Write a function to find sum of the numbers in a list between the indices of a specified range.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 171,
+    "prompt": "Write a function to find the perimeter of a pentagon.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 172,
+    "prompt": "Write a function to find the occurence of characters 'std' in the given string 1. list item 1. list item 1. list item 2. list item 2. list item 2. list item",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 173,
+    "prompt": "Write a function to remove everything except alphanumeric characters from a string.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 174,
+    "prompt": "Write a function to group a sequence of key-value pairs into a dictionary of lists.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 175,
+    "prompt": "Write a function to verify validity of a string of parentheses.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 176,
+    "prompt": "Write a function to find the perimeter of a triangle.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 177,
+    "prompt": "Write a python function to find two distinct numbers such that their lcm lies within the given range.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 178,
+    "prompt": "Write a function to search some literals strings in a string.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 179,
+    "prompt": "Write a function to find if the given number is a keith number or not.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 180,
+    "prompt": "Write a function to calculate distance between two points using latitude and longitude.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 181,
+    "prompt": "Write a function to find the longest common prefix in the given set of strings.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 182,
+    "prompt": "Write a function to find uppercase, lowercase, special character and numeric values using regex.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 183,
+    "prompt": "Write a function to count all the distinct pairs having a difference of k in any array.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 184,
+    "prompt": "Write a function to find all the values in a list that are greater than a specified number.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 185,
+    "prompt": "Write a function to find the focus of a parabola.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 186,
+    "prompt": "Write a function to search some literals strings in a string by using regex.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 187,
+    "prompt": "Write a function to find the longest common subsequence for the given two sequences.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 188,
+    "prompt": "Write a python function to check whether the given number can be represented by product of two squares or not.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 189,
+    "prompt": "Write a python function to find the first missing positive number.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 190,
+    "prompt": "Write a python function to count the number of integral co-ordinates that lie inside a square.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 191,
+    "prompt": "Write a function to check whether the given month name contains 30 days or not.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 192,
+    "prompt": "Write a python function to check whether a string has atleast one letter and one number.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 193,
+    "prompt": "Write a function to remove the duplicates from the given tuple.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 194,
+    "prompt": "Write a python function to convert octal number to decimal number.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 195,
+    "prompt": "Write a python function to find the first position of an element in a sorted array.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 196,
+    "prompt": "Write a function to remove all the tuples with length k.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 197,
+    "prompt": "Write a function to perform the exponentiation of the given two tuples.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 198,
+    "prompt": "Write a function to find the largest triangle that can be inscribed in an ellipse.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 199,
+    "prompt": "Write a python function to find highest power of 2 less than or equal to given number.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 200,
+    "prompt": "Write a function to find all index positions of the maximum values in a given list.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 201,
+    "prompt": "Write a python function to check whether the elements in a list are same or not.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 202,
+    "prompt": "Write a function to remove even characters in a string.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 203,
+    "prompt": "Write a python function to find the hamming distance between given two integers.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 204,
+    "prompt": "Write a python function to count the occurrence of a given character in a string.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 205,
+    "prompt": "Write a function to find the inversions of tuple elements in the given tuple list.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 206,
+    "prompt": "Write a function to perform the adjacent element concatenation in the given tuples.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 207,
+    "prompt": "Write a function to count the longest repeating subsequences such that the two subsequences don’t have same string characters at same positions.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 208,
+    "prompt": "Write a function to check the given decimal with a precision of 2 by using regex.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 209,
+    "prompt": "Write a function to delete the smallest element from the given heap and then insert a new item.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 210,
+    "prompt": "Write a function to check that the given string contains only a certain set of characters(in this case a-z, a-z and 0-9) by using regex.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 211,
+    "prompt": "Write a python function to count numbers whose oth and nth bits are set.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 212,
+    "prompt": "Write a python function to find the sum of fourth power of n natural numbers.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 213,
+    "prompt": "Write a function to perform the concatenation of two string tuples.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 214,
+    "prompt": "Write a function to convert radians to degrees.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 215,
+    "prompt": "Write a function to decode a run-length encoded given list.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 216,
+    "prompt": "Write a function to check if a nested list is a subset of another nested list.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 217,
+    "prompt": "Write a python function to find the first repeated character in a given string.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 218,
+    "prompt": "Write a python function to find the minimum operations required to make two numbers equal.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 219,
+    "prompt": "Write a function to extract maximum and minimum k elements in the given tuple.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 220,
+    "prompt": "Write a function to replace maximum n occurrences of spaces, commas, or dots with a colon.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 221,
+    "prompt": "Write a python function to find the first even number in a given list of numbers.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 222,
+    "prompt": "Write a function to check if all the elements in tuple have same data type or not.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 223,
+    "prompt": "Write a function to check for majority element in the given sorted array.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 224,
+    "prompt": "Write a python function to count set bits of a given number.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 225,
+    "prompt": "Write a python function to find the minimum element in a sorted and rotated array.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 226,
+    "prompt": "Write a python function to remove the characters which have odd index values of a given string.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 227,
+    "prompt": "Write a function to find minimum of three numbers.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 228,
+    "prompt": "Write a python function to check whether all the bits are unset in the given range or not.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 229,
+    "prompt": "Write a function to re-arrange the elements of the given array so that all negative elements appear before positive ones.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 230,
+    "prompt": "Write a function to replace blank spaces with any character in a string.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 231,
+    "prompt": "Write a function to find the maximum sum in the given right triangle of numbers.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 232,
+    "prompt": "Write a function to get the n largest items from a dataset.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 233,
+    "prompt": "Write a function to find the lateral surface area of a cylinder.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 234,
+    "prompt": "Write a function to find the volume of a cube.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 235,
+    "prompt": "Write a python function to set all even bits of a given number.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 236,
+    "prompt": "Write a python function to count the maximum number of equilateral triangles that can be formed within a given equilateral triangle.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 237,
+    "prompt": "Write a function to check the occurrences of records which occur similar times in the given tuples.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 238,
+    "prompt": "Write a python function to count number of non-empty substrings of a given string.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 239,
+    "prompt": "Write a function to find the number of possible sequences of length n such that each of the next element is greater than or equal to twice of the previous element but less than or equal to m.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 240,
+    "prompt": "Write a function to replace the last element of the list with another list.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 241,
+    "prompt": "Write a function to generate a 3d array having each element as '*'.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 242,
+    "prompt": "Write a function to count total characters in a string.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 243,
+    "prompt": "Write a function to sort the given list based on the occurrence of first element of tuples.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 244,
+    "prompt": "Write a python function to find the next perfect square greater than a given number.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 245,
+    "prompt": "Write a function to find the maximum sum of bi-tonic sub-sequence for the given array.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 246,
+    "prompt": "Write a function for computing square roots using the babylonian method.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 247,
+    "prompt": "Write a function to find the longest palindromic subsequence in the given string.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 248,
+    "prompt": "Write a function to calculate the harmonic sum of n-1.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 249,
+    "prompt": "Write a function to find the intersection of two arrays using lambda function.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 250,
+    "prompt": "Write a python function to count the occcurences of an element in a tuple.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 251,
+    "prompt": "Write a function to insert an element before each element of a list.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 252,
+    "prompt": "Write a python function to convert complex numbers to polar coordinates.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 253,
+    "prompt": "Write a python function to count integers from a given list.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 254,
+    "prompt": "Write a function to find all words starting with 'a' or 'e' in a given string.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 255,
+    "prompt": "Write a function to choose specified number of colours from three different colours and generate all the combinations with repetitions.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 256,
+    "prompt": "Write a python function to count the number of prime numbers less than a given non-negative number.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 257,
+    "prompt": "Write a function to swap two numbers.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 258,
+    "prompt": "Write a function to find number of odd elements in the given list using lambda function.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 259,
+    "prompt": "Write a function to maximize the given two tuples.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 260,
+    "prompt": "Write a function to find the nth newman–shanks–williams prime number.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 261,
+    "prompt": "Write a function to perform mathematical division operation across the given tuples.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 262,
+    "prompt": "Write a function to split a given list into two parts where the length of the first part of the list is given.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 263,
+    "prompt": "Write a function to merge two dictionaries.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 264,
+    "prompt": "Write a function to calculate a dog's age in dog's years.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 265,
+    "prompt": "Write a function to split a list for every nth element.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 266,
+    "prompt": "Write a function to find the lateral surface area of a cube.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 267,
+    "prompt": "Write a python function to find the sum of squares of first n odd natural numbers.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 268,
+    "prompt": "Write a function to find the n'th star number.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 269,
+    "prompt": "Write a function to find the ascii value of a character.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 270,
+    "prompt": "Write a python function to find the sum of even numbers at even positions.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 271,
+    "prompt": "Write a python function to find the sum of fifth power of first n even natural numbers.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 272,
+    "prompt": "Write a function to perfom the rear element extraction from list of tuples records.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 273,
+    "prompt": "Write a function to substract the contents of one tuple with corresponding index of other tuple.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 274,
+    "prompt": "Write a python function to find sum of even index binomial coefficients.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 275,
+    "prompt": "Write a python function to find the position of the last removed element from the given array.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 276,
+    "prompt": "Write a function to find the volume of a cylinder.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 277,
+    "prompt": "Write a function to filter a dictionary based on values.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 278,
+    "prompt": "Write a function to find the element count that occurs before the record in the given tuple.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 279,
+    "prompt": "Write a function to find the nth decagonal number.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 280,
+    "prompt": "Write a function to search an element in the given array by using sequential search.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 281,
+    "prompt": "Write a python function to check if the elements of a given list are unique or not.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 282,
+    "prompt": "Write a function to substaract two lists using map and lambda function.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 283,
+    "prompt": "Write a python function to check whether the frequency of each digit is less than or equal to the digit itself.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 284,
+    "prompt": "Write a function to check whether all items of a list are equal to a given string.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 285,
+    "prompt": "Write a function that matches a string that has an a followed by two to three 'b'.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 286,
+    "prompt": "Write a function to find the largest sum of contiguous array in the modified array which is formed by repeating the given array k times.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 287,
+    "prompt": "Write a python function to find the sum of squares of first n even natural numbers.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 288,
+    "prompt": "Write a function to count array elements having modular inverse under given prime number p equal to itself.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 289,
+    "prompt": "Write a python function to calculate the number of odd days in a given year.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 290,
+    "prompt": "Write a function to find the list of lists with maximum length.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 291,
+    "prompt": "Write a function to find out the number of ways of painting the fence such that at most 2 adjacent posts have the same color for the given fence with n posts and k colors.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 292,
+    "prompt": "Write a python function to find quotient of two numbers.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 293,
+    "prompt": "Write a function to find the third side of a right angled triangle.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 294,
+    "prompt": "Write a function to find the maximum value in a given heterogeneous list.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 295,
+    "prompt": "Write a function to return the sum of all divisors of a number.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 296,
+    "prompt": "Write a python function to count inversions in an array.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 297,
+    "prompt": "Write a function to flatten a given nested list structure.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 298,
+    "prompt": "Write a function to find the nested list elements which are present in another list.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 299,
+    "prompt": "Write a function to calculate the maximum aggregate from the list of tuples.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 300,
+    "prompt": "Write a function to find the count of all binary sequences of length 2n such that sum of first n bits is same as sum of last n bits.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 301,
+    "prompt": "Write a function to find the depth of a dictionary.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 302,
+    "prompt": "Write a python function to find the most significant bit number which is also a set bit.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 303,
+    "prompt": "Write a python function to check whether the count of inversion of two types are same or not.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 304,
+    "prompt": "Write a python function to find element at a given index after number of rotations.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 305,
+    "prompt": "Write a function to match two words from a list of words starting with letter 'p'.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 306,
+    "prompt": "Write a function to find the maximum sum of increasing subsequence from prefix till ith index and also including a given kth element which is after i, i.e., k > i .",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 307,
+    "prompt": "Write a function to get a colon of a tuple.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 308,
+    "prompt": "Write a function to find the specified number of largest products from two given lists.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 309,
+    "prompt": "Write a python function to find the maximum of two numbers.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 310,
+    "prompt": "Write a function to convert a given string to a tuple.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 311,
+    "prompt": "Write a python function to set the left most unset bit.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 312,
+    "prompt": "Write a function to find the volume of a cone.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 313,
+    "prompt": "Write a python function to print positive numbers in a list.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 314,
+    "prompt": "Write a function to find out the maximum sum such that no two chosen numbers are adjacent for the given rectangular grid of dimension 2 x n.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 315,
+    "prompt": "Write a python function to find the first maximum length of even word.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 316,
+    "prompt": "Write a function to find the index of the last occurrence of a given number in a sorted array.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 317,
+    "prompt": "Write a function to reflect the modified run-length encoding from a list.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 318,
+    "prompt": "Write a python function to find the maximum volume of a cuboid with given sum of sides.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 319,
+    "prompt": "Write a function to find all five characters long word in the given string by using regex.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 320,
+    "prompt": "Write a function to calculate the difference between the squared sum of first n natural numbers and the sum of squared first n natural numbers.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 321,
+    "prompt": "Write a function to find the demlo number for the given number.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 322,
+    "prompt": "Write a function to find all index positions of the minimum values in a given list.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 323,
+    "prompt": "Write a function to re-arrange the given array in alternating positive and negative items.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 324,
+    "prompt": "Write a function to extract the sum of alternate chains of tuples.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 325,
+    "prompt": "Write a python function to find the minimum number of squares whose sum is equal to a given number.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 326,
+    "prompt": "Write a function to get the word with most number of occurrences in the given strings list.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 327,
+    "prompt": "Write a function to print check if the triangle is isosceles or not.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 328,
+    "prompt": "Write a function to rotate a given list by specified number of items to the left direction.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 329,
+    "prompt": "Write a python function to count negative numbers in a list.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 330,
+    "prompt": "Write a function to find all three, four, five characters long words in the given string by using regex.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 331,
+    "prompt": "Write a python function to count unset bits of a given number.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 332,
+    "prompt": "Write a function to count character frequency of a given string.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 333,
+    "prompt": "Write a python function to sort a list according to the second element in sublist.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 334,
+    "prompt": "Write a python function to check whether the triangle is valid or not if sides are given.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 335,
+    "prompt": "Write a function to find the sum of arithmetic progression.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 336,
+    "prompt": "Write a function to check whether the given month name contains 28 days or not.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 337,
+    "prompt": "Write a function that matches a word at the end of a string, with optional punctuation.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 338,
+    "prompt": "Write a python function to count the number of substrings with same first and last characters.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 339,
+    "prompt": "Write a python function to find the maximum occuring divisor in an interval.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 340,
+    "prompt": "Write a python function to find the sum of the three lowest positive numbers from a given list of numbers.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 341,
+    "prompt": "Write a function to convert the given set into ordered tuples.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 342,
+    "prompt": "Write a function to find the smallest range that includes at-least one element from each of the given arrays.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 343,
+    "prompt": "Write a function to calculate the number of digits and letters in a string.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 344,
+    "prompt": "Write a python function to find number of elements with odd factors in a given range.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 345,
+    "prompt": "Write a function to find the difference between two consecutive numbers in a given list.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 346,
+    "prompt": "Write a function to find entringer number e(n, k).",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 347,
+    "prompt": "Write a python function to count the number of squares in a rectangle.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 348,
+    "prompt": "Write a function to count sequences of given length having non-negative prefix sums that can be generated by given values.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 349,
+    "prompt": "Write a python function to check whether the given string is a binary string or not.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 350,
+    "prompt": "Write a python function to minimize the length of the string by removing occurrence of only one character.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 351,
+    "prompt": "Write a python function to find the first element occurring k times in a given array.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 352,
+    "prompt": "Write a python function to check whether all the characters in a given string are unique.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 353,
+    "prompt": "Write a function to remove a specified column from a given nested list.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 354,
+    "prompt": "Write a function to find t-nth term of arithemetic progression.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 355,
+    "prompt": "Write a python function to count the number of rectangles in a circle of radius r.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 356,
+    "prompt": "Write a function to find the third angle of a triangle using two angles.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 357,
+    "prompt": "Write a function to find the maximum element of all the given tuple records.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 358,
+    "prompt": "Write a function to find modulo division of two lists using map and lambda function.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 359,
+    "prompt": "Write a python function to check whether one root of the quadratic equation is twice of the other or not.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 360,
+    "prompt": "Write a function to find the n’th carol number.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 361,
+    "prompt": "Write a function to remove empty lists from a given list of lists.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 362,
+    "prompt": "Write a python function to find the item with maximum occurrences in a given list.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 363,
+    "prompt": "Write a function to add the k elements to each element in the tuple.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 364,
+    "prompt": "Write a function to find the number of flips required to make the given binary string a sequence of alternate characters.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 365,
+    "prompt": "Write a python function to count the number of digits of a given number.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 366,
+    "prompt": "Write a python function to find the largest product of the pair of adjacent elements from a given list of integers.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 367,
+    "prompt": "Write a function to check if a binary tree is balanced or not.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 368,
+    "prompt": "Write a function to repeat the given tuple n times.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 369,
+    "prompt": "Write a function to find the lateral surface area of cuboid",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 370,
+    "prompt": "Write a function to sort a tuple by its float element.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 371,
+    "prompt": "Write a function to find the smallest missing element in a sorted array.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 372,
+    "prompt": "Write a function to sort a given list of elements in ascending order using heap queue algorithm.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 373,
+    "prompt": "Write a function to find the volume of a cuboid.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 374,
+    "prompt": "Write a function to print all permutations of a given string including duplicates.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 375,
+    "prompt": "Write a function to round the given number to the nearest multiple of a specific number.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 376,
+    "prompt": "Write a function to remove tuple elements that occur more than once and replace the duplicates with some custom value.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 377,
+    "prompt": "Write a python function to remove all occurrences of a character in a given string.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 378,
+    "prompt": "Write a python function to shift last element to first position in the given list.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 379,
+    "prompt": "Write a function to find the surface area of a cuboid.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 380,
+    "prompt": "Write a function to generate a two-dimensional array.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 381,
+    "prompt": "Write a function to sort a list of lists by a given index of the inner list.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 382,
+    "prompt": "Write a function to find the number of rotations in a circularly sorted array.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 383,
+    "prompt": "Write a python function to toggle all odd bits of a given number.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 384,
+    "prompt": "Write a python function to find the frequency of the smallest value in a given array.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 385,
+    "prompt": "Write a function to find the n'th perrin number using recursion.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 386,
+    "prompt": "Write a function to find out the minimum no of swaps required for bracket balancing in the given string.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 387,
+    "prompt": "Write a python function to check whether the hexadecimal number is even or odd.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 388,
+    "prompt": "Write a python function to find the highest power of 2 that is less than or equal to n.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 389,
+    "prompt": "Write a function to find the n'th lucas number.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 390,
+    "prompt": "Write a function to insert a given string at the beginning of all items in a list.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 391,
+    "prompt": "Write a function to convert more than one list to nested dictionary.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 392,
+    "prompt": "Write a function to find the maximum sum possible by using the given equation f(n) = max( (f(n/2) + f(n/3) + f(n/4) + f(n/5)), n).",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 393,
+    "prompt": "Write a function to find the list with maximum length using lambda function.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 394,
+    "prompt": "Write a function to check if given tuple is distinct or not.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 395,
+    "prompt": "Write a python function to find the first non-repeated character in a given string.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 396,
+    "prompt": "Write a function to check whether the given string starts and ends with the same character or not using regex.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 397,
+    "prompt": "Write a function to find the median of three specific numbers.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 398,
+    "prompt": "Write a function to compute the sum of digits of each number of a given list.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 399,
+    "prompt": "Write a function to perform the mathematical bitwise xor operation across the given tuples.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 400,
+    "prompt": "Write a function to extract the frequency of unique tuples in the given list order irrespective.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 401,
+    "prompt": "Write a function to perform index wise addition of tuple elements in the given two nested tuples.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 402,
+    "prompt": "Write a function to compute the value of ncr%p.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 403,
+    "prompt": "Write a function to check if a url is valid or not using regex.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 404,
+    "prompt": "Write a python function to find the minimum of two numbers.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 405,
+    "prompt": "Write a function to check whether an element exists within a tuple.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 406,
+    "prompt": "Write a python function to find the parity of a given number.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 407,
+    "prompt": "Write a function to create the next bigger number by rearranging the digits of a given number.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 408,
+    "prompt": "Write a function to find k number of pairs which consist of one element from the first array and one element from the second array.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 409,
+    "prompt": "Write a function to find the minimum product from the pairs of tuples within a given list.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 410,
+    "prompt": "Write a function to find the minimum value in a given heterogeneous list.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 411,
+    "prompt": "Write a function to convert the given snake case string to camel case string by using regex.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 412,
+    "prompt": "Write a python function to remove odd numbers from a given list.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 413,
+    "prompt": "Write a function to extract the nth element from a given list of tuples.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 414,
+    "prompt": "Write a python function to check whether the value exists in a sequence or not.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 415,
+    "prompt": "Write a python function to find a pair with highest product from a given array of integers.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 416,
+    "prompt": "Write a function to find the maximum sum we can make by dividing number in three parts recursively and summing them up together for the given number.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 417,
+    "prompt": "Write a function to find common first element in given list of tuple.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 418,
+    "prompt": "Write a python function to find the sublist having maximum length.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 419,
+    "prompt": "Write a function to round every number of a given list of numbers and print the total sum multiplied by the length of the list.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 420,
+    "prompt": "Write a python function to find the cube sum of first n even natural numbers.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 421,
+    "prompt": "Write a function to concatenate each element of tuple by the delimiter.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 422,
+    "prompt": "Write a python function to find the average of cubes of first n natural numbers.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 423,
+    "prompt": "Write a function to solve gold mine problem.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 424,
+    "prompt": "Write a function to extract only the rear index element of each string in the given tuple.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 425,
+    "prompt": "Write a function to count the number of sublists containing a particular element.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 426,
+    "prompt": "Write a function to filter odd numbers using lambda function.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 427,
+    "prompt": "Write a function to convert a date of yyyy-mm-dd format to dd-mm-yyyy format by using regex.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 428,
+    "prompt": "Write a function to sort the given array by using shell sort.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 429,
+    "prompt": "Write a function to extract the elementwise and tuples from the given two tuples.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 430,
+    "prompt": "Write a function to find the directrix of a parabola.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 431,
+    "prompt": "Write a function that takes two lists and returns true if they have at least one common element.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 432,
+    "prompt": "Write a function to find the median of a trapezium.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 433,
+    "prompt": "Write a function to check whether the entered number is greater than the elements of the given array.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 434,
+    "prompt": "Write a function that matches a string that has an a followed by one or more b's.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 435,
+    "prompt": "Write a python function to find the last digit of a given number.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 436,
+    "prompt": "Write a python function to print negative numbers in a list.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 437,
+    "prompt": "Write a function to remove odd characters in a string.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 438,
+    "prompt": "Write a function to count bidirectional tuple pairs.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 439,
+    "prompt": "Write a function to convert a list of multiple integers into a single integer.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 440,
+    "prompt": "Write a function to find all adverbs and their positions in a given sentence.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 441,
+    "prompt": "Write a function to find the surface area of a cube.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 442,
+    "prompt": "Write a function to find the ration of positive numbers in an array of integers.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 443,
+    "prompt": "Write a python function to find the largest negative number from the given list.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 444,
+    "prompt": "Write a function to trim each tuple by k in the given tuple list.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 445,
+    "prompt": "Write a function to perform index wise multiplication of tuple elements in the given two tuples.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 446,
+    "prompt": "Write a python function to count the occurence of all elements of list in a tuple.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 447,
+    "prompt": "Write a function to find cubes of individual elements in a list using lambda function.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 448,
+    "prompt": "Write a function to calculate the sum of perrin numbers.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 449,
+    "prompt": "Write a python function to check whether the triangle is valid or not if 3 points are given.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 450,
+    "prompt": "Write a function to extract specified size of strings from a give list of string values.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 451,
+    "prompt": "Write a function to remove all whitespaces from the given string using regex.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 452,
+    "prompt": "Write a function that gives loss amount if the given amount has loss else return none.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 453,
+    "prompt": "Write a python function to find the sum of even factors of a number.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 454,
+    "prompt": "Write a function that matches a word containing 'z'.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 455,
+    "prompt": "Write a function to check whether the given month number contains 31 days or not.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 456,
+    "prompt": "Write a function to reverse strings in a given list of string values.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 457,
+    "prompt": "Write a python function to find the sublist having minimum length.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 458,
+    "prompt": "Write a function to find the area of a rectangle.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 459,
+    "prompt": "Write a function to remove uppercase substrings from a given string by using regex.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 460,
+    "prompt": "Write a python function to get the first element of each sublist.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 461,
+    "prompt": "Write a python function to count the upper case characters in a given string.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 462,
+    "prompt": "Write a function to find all possible combinations of the elements of a given list.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 463,
+    "prompt": "Write a function to find the maximum product subarray of the given array.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 464,
+    "prompt": "Write a function to check if all values are same in a dictionary.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 465,
+    "prompt": "Write a function to drop empty items from a given dictionary.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 466,
+    "prompt": "Write a function to find the peak element in the given array.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 467,
+    "prompt": "Write a python function to convert decimal number to octal number.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 468,
+    "prompt": "Write a function to find the maximum product formed by multiplying numbers of an increasing subsequence of that array.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 469,
+    "prompt": "Write a function to find the maximum profit earned from a maximum of k stock transactions",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 470,
+    "prompt": "Write a function to find the pairwise addition of the elements of the given tuples.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 471,
+    "prompt": "Write a python function to find remainder of array multiplication divided by n.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 472,
+    "prompt": "Write a python function to check whether the given list contains consecutive numbers or not.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 473,
+    "prompt": "Write a function to find the tuple intersection of elements in the given tuple list irrespective of their order.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 474,
+    "prompt": "Write a function to replace characters in a string.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 475,
+    "prompt": "Write a function to sort counter by value.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 476,
+    "prompt": "Write a python function to find the sum of the largest and smallest value in a given array.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 477,
+    "prompt": "Write a python function to convert the given string to lower case.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 478,
+    "prompt": "Write a function to remove lowercase substrings from a given string.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 479,
+    "prompt": "Write a python function to find the first digit of a given number.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 480,
+    "prompt": "Write a python function to find the maximum occurring character in a given string.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 481,
+    "prompt": "Write a function to determine if there is a subset of the given set with sum equal to the given sum.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 482,
+    "prompt": "Write a function to find sequences of one upper case letter followed by lower case letters in the given string by using regex.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 483,
+    "prompt": "Write a python function to find the first natural number whose factorial is divisible by x.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 484,
+    "prompt": "Write a function to remove the matching tuples from the given two tuples.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 485,
+    "prompt": "Write a function to find the largest palindromic number in the given array.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 486,
+    "prompt": "Write a function to compute binomial probability for the given number.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 487,
+    "prompt": "Write a function to sort a list of tuples in increasing order by the last element in each tuple.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 488,
+    "prompt": "Write a function to find the area of a pentagon.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 489,
+    "prompt": "Write a python function to find the frequency of the largest value in a given array.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 490,
+    "prompt": "Write a function to extract all the pairs which are symmetric in the given tuple list.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 491,
+    "prompt": "Write a function to find the sum of geometric progression series.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 492,
+    "prompt": "Write a function to search an element in the given array by using binary search.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 493,
+    "prompt": "Write a function to calculate a grid of hexagon coordinates where function returns a list of lists containing 6 tuples of x, y point coordinates.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 494,
+    "prompt": "Write a function to convert the given binary tuple to integer.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 495,
+    "prompt": "Write a function to remove lowercase substrings from a given string by using regex.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 496,
+    "prompt": "Write a function to find the smallest integers from a given list of numbers using heap queue algorithm.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 497,
+    "prompt": "Write a function to find the surface area of a cone.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 498,
+    "prompt": "Write a python function to find gcd of two positive integers.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 499,
+    "prompt": "Write a function to find the diameter of a circle.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 500,
+    "prompt": "Write a function to concatenate all elements of the given list into a string.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 501,
+    "prompt": "Write a python function to find common divisor between two numbers in a given pair.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 502,
+    "prompt": "Write a python function to find remainder of two numbers.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 503,
+    "prompt": "Write a function to add consecutive numbers of a given list.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 504,
+    "prompt": "Write a python function to find the cube sum of first n natural numbers.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 505,
+    "prompt": "Write a function to move all zeroes to the end of the given array.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 506,
+    "prompt": "Write a function to calculate the permutation coefficient of given p(n, k).",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 507,
+    "prompt": "Write a function to remove specific words from a given list.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 508,
+    "prompt": "Write a function to check if the common elements between two given lists are in the same order or not.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 509,
+    "prompt": "Write a python function to find the average of odd numbers till a given odd number.",
+    "task": "mbpp"
+  },
+  {
+    "task_id": 510,
+    "prompt": "Write a function to find the number of subsequences having product smaller than k for the given non negative array.",
+    "task": "mbpp"
+  }
+]

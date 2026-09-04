@@ -1,0 +1,41 @@
+[
+  {
+    "sample_id": 1,
+    "task": "virology",
+    "ground_truth": "D",
+    "final_answer": "H",
+    "attack_log": [
+      [
+        "A1",
+        1
+      ]
+    ],
+    "attack_success": true
+  },
+  {
+    "sample_id": 2,
+    "task": "college_biology",
+    "ground_truth": "B",
+    "final_answer": "F",
+    "attack_log": [
+      [
+        "A1",
+        1
+      ]
+    ],
+    "attack_success": true
+  },
+  {
+    "sample_id": 3,
+    "task": "anatomy",
+    "ground_truth": "A",
+    "final_answer": "A. Bladder",
+    "attack_log": [
+      [
+        "A1",
+        1
+      ]
+    ],
+    "attack_success": false
+  }
+]
