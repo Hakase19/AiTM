@@ -38,7 +38,7 @@ def load_humaneval() -> List[Dict[str, Any]]:
         List of all HumanEval samples.
     """
     base_dir = os.path.dirname(os.path.abspath(__file__))
-    filepath = os.path.join(base_dir, "humaneval", "humaneval.json")
+    filepath = os.path.join(base_dir, "humaneval", "test.json")
 
     with open(filepath, "r", encoding="utf-8") as f:
         samples = json.load(f)
@@ -53,21 +53,9 @@ def load_mbpp() -> List[Dict[str, Any]]:
         List of all MBPP samples.
     """
     base_dir = os.path.dirname(os.path.abspath(__file__))
-    filepath = os.path.join(base_dir, "mbpp", "mbpp.jsonl")
-
-    samples = []
+    filepath = os.path.join(base_dir, "mbpp", "test.json")
     with open(filepath, "r", encoding="utf-8") as f:
-        for line in f:
-            if line.strip():
-                item = json.loads(line)
-                samples.append({
-                    "task_id": item.get("task_id", ""),
-                    "prompt": item.get("text", ""),
-                    "code": item.get("code", ""),
-                    "test_list": item.get("test_list", []),
-                })
-
-    return samples
+        return json.load(f)
 
 
 def get_dataset_stats():
