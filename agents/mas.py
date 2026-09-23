@@ -7,6 +7,7 @@ from typing import List, Dict, Any, Optional
 from openai import OpenAI
 from structures.communication import CommunicationStructure, get_structure
 from agents.adversarial import AdversarialAgent
+from configs.api_config import DEFAULT_MAX_OUTPUT_TOKENS
 
 
 class Agent:
@@ -76,7 +77,7 @@ Based on the discussion above, provide your analysis and answer. Be clear and co
                 {"role": "user", "content": prompt}
             ],
             temperature=0.7,
-            max_tokens=1024,
+            max_tokens=DEFAULT_MAX_OUTPUT_TOKENS,
         )
 
         return response.choices[0].message.content.strip()
@@ -296,7 +297,7 @@ Based on the above discussion, provide the final answer. Be concise."""
                 {"role": "user", "content": prompt}
             ],
             temperature=0.3,
-            max_tokens=512,
+            max_tokens=DEFAULT_MAX_OUTPUT_TOKENS,
         )
 
         return response.choices[0].message.content.strip()

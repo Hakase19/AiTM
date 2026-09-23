@@ -1,7 +1,6 @@
-"""AIRA analysis components operating only on observed communications."""
+"""AIRA edge-analysis components."""
 
-from .influence_estimator import CommunicationInfluenceEstimator
-from .role_inference import RoleInference
-from .topology_analyzer import TopologyAnalyzer
+from .edge_influence import EdgeInfluenceScorer
+from .temporal_edge_analyzer import TemporalEdgeAnalyzer
 
-__all__ = ["CommunicationInfluenceEstimator", "RoleInference", "TopologyAnalyzer"]
+__all__ = ["EdgeInfluenceScorer", "TemporalEdgeAnalyzer"]

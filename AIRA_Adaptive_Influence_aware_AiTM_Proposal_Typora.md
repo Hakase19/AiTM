@@ -1,483 +1,225 @@
 ---
 author: Research Proposal Draft
-title: "AIRA: Adaptive Influence-aware AiTM Attack for LLM-based
-  Multi-Agent Systems"
+title: "AIRA: Adaptive Influence-aware AiTM Attack for LLM-based Multi-Agent Systems"
 ---
 
 # AIRA: Adaptive Influence-aware AiTM Attack for LLM-based Multi-Agent Systems
 
-## 1. 核心思想
+## 1. 核心问题
 
-现有 AiTM 攻击主要关注 Agent
-间通信消息的拦截与篡改，但默认攻击者已经知道目标 victim agent。
+原始 AiTM 预先指定 victim。AIRA 保留 AiTM 的消息篡改方式，只增加一个在线攻击决策层：
 
-本文提出 **AIRA（Adaptive Influence-aware AiTM Attack）**：
+> 在当前同步轮次已经生成、尚未交付的消息边中，选择最值得篡改的一条具体边。
 
-> 攻击者通过监听 Agent 间通信行为，逐步恢复 MAS 拓扑结构，推断 Agent
-> 角色，并结合通信影响力评估每个 Agent
-> 的攻击价值，从而自适应选择最具影响力的 victim agent，最后执行 AiTM
-> 攻击。
-
-核心流程：
+候选单位不是 Agent，而是带轮次的消息边：
 
 $$
-\text{Communication Observation}
-\rightarrow
-\text{Topology \& Role Inference}
-\rightarrow
-\text{Agent Influence Estimation}
-\rightarrow
-\text{Adaptive Victim Selection}
-\rightarrow
-\text{AiTM Attack}
+e_t=(a_u\rightarrow a_v,t)
 $$
+
+当前实现只决定“攻击哪条边”。攻击时机不是学习结果：默认在达到观察阈值后的第一个可攻击批次选择一次，三轮同步协作中通常为第 1 轮生成后、第 2 轮消费前。
 
 ------------------------------------------------------------------------
 
-# 2. Threat Model（攻击模型）
+# 2. Threat Model
 
-考虑一个 LLM-MAS：
+攻击者知道 MAS 的协作拓扑和轮次编排，可以观察、截获并修改当前在途消息，但不能访问：
 
-$$
-G=(A,E)
-$$
+- Agent system prompt；
+- 隐藏 memory；
+- 模型参数；
+- 尚未生成的未来消息。
 
-其中：
+所有 Agent 在同一轮先独立生成输出，当前批次消息全部生成后才进行选边和投递。因此选择器只能使用：
 
--   $A=\{a_1,a_2,\dots,a_n\}$：Agent 集合；
--   $E$：Agent 之间的通信边。
-
-每个 Agent 表示为：
-
-$$
-a_i=(LLM_i,Role_i,Memory_i,Tool_i)
-$$
-
-## 攻击者能力
-
-攻击者：
-
--   可以监听 Agent 间通信消息：
-
-$$
-m_{ij}^{t}
-$$
-
--   可以截获并修改通信内容：
-
-$$
-m_{ij}^{t}\rightarrow m_{ij}^{t'}
-$$
-
--   可以将修改后的消息重新发送给目标 Agent。
-
-攻击者不能：
-
--   修改模型参数；
--   访问 Agent 内部 memory；
--   修改 system prompt；
--   直接控制 Agent。
-
-因此，攻击者属于通信层观察者和操纵者。
+- 已知协作拓扑；
+- 当前轮次和总轮数；
+- 当前批次可拦截消息；
+- 当前轮各 Agent 已生成的可观察输出；
+- 攻击目标。
 
 ------------------------------------------------------------------------
 
-# 3. Communication Observation Module
+# 3. 时间展开协作图
 
-攻击者首先在 MAS 运行过程中通过有限观察窗口收集通信轨迹：
+将已知静态拓扑展开为有向无环时间图。节点 $a_i^r$ 表示 Agent $a_i$ 在第 $r$ 轮生成的输出状态。
 
-$$
-H_T=\{m_{ij}^{1},m_{ij}^{2},...,m_{ij}^{T}\}
-$$
+时间图包含：
 
-每条消息包含：
+1. 通信依赖边：
 
 $$
-m_{ij}^{t}=(sender,receiver,content,time)
+a_u^r\rightarrow a_v^{r+1}
 $$
 
-通信历史用于后续：
+2. 自身记忆边：
 
-1.  拓扑结构恢复；
-2.  Agent 角色推断；
-3.  影响力计算。
+$$
+a_i^r\rightarrow a_i^{r+1}
+$$
 
-观察窗口在 MAS 仍有后续通信时结束。达到预设的信息充分条件（如观察到固定数量的通信边或消息）后，攻击者基于当前历史进行一次 victim 选择；选择后的攻击在该 Agent 下一次接收通信时执行。
+当前 AutoGen 实现会在后续轮次保留 Agent 自身历史输出，因此自身记忆边是真实执行依赖，不是额外假设。
+
+3. 终端决策边。终端必须与真实调度一致：
+
+- Chain：仅最终轮 $A2^T\rightarrow J$；
+- Tree：最终轮 $A0^T,A1^T\rightarrow J$；
+- Asymmetric-tree：最终轮 $A0^T\rightarrow J$；
+- Complete / Random：Judge 读取完整多轮讨论，因此各轮所有 Agent 输出均连接到 $J$。
 
 ------------------------------------------------------------------------
 
-# 4. Topology-aware Agent Analysis
+# 4. Target-aware Temporal Reachability
 
-## 4.1 Communication Graph Reconstruction
-
-根据通信行为恢复 MAS 图：
+对当前候选边 $e_t$，计算强制先经过该边后，到最终决策节点 $J$ 的折扣时序路径质量：
 
 $$
-\hat{G}=(A,\hat{E})
+R_{raw}(e_t)=
+\sum_{p:e_t\rightsquigarrow J}\lambda^{|p|},
+\qquad 0<\lambda\leq1
 $$
 
-如果观察到：
+默认 $\lambda=0.8$。路径必须严格沿轮次前进。
+
+在当前候选边集合 $E_t$ 内归一化：
 
 $$
-a_i\rightarrow a_j
+\hat R_t(e)=
+\frac{R_{raw}(e)}{\max_{e'\in E_t}R_{raw}(e')}
 $$
 
-则建立通信边：
-
-$$
-e_{ij}=1
-$$
+若 $R_{raw}(e)=0$，说明在剩余轮次内该消息不可能进入真实终端决策路径，该边不参与最终选择。
 
 ------------------------------------------------------------------------
 
-## 4.2 Topology Importance
+# 5. Structural Irreplaceability
 
-对于每个 Agent，计算其结构影响：
-
-### Degree Centrality
-
-表示通信活跃程度：
+不可替代性使用 sender-conditioned temporal interdiction。令：
 
 $$
-C_d(a_i)
+F(a_u^t,J;G)
 $$
 
-### Betweenness Centrality
-
-表示信息传播中转能力：
+表示发送者当前状态 $a_u^t$ 到 $J$ 的折扣时序路径总质量。对候选边 $e_t=(a_u\rightarrow a_v,t)$：
 
 $$
-C_b(a_i)
+B_t(e)=
+1-
+\frac{F(a_u^t,J;G\setminus e)}
+{F(a_u^t,J;G)}
 $$
 
-### Closeness Centrality
+该定义回答：删除这条具体时序边后，当前发送者的信息还有多少其他合法路径可以到达最终决策。
 
-表示与其他 Agent 的距离：
+分母不能使用“只从候选边出发的路径”，否则删除候选边后所有边都会得到 1；也不使用所有当前发送者的统一分母，因为首轮场景下会使 $B$ 与 $R$ 退化为同序指标。
+
+------------------------------------------------------------------------
+
+# 6. Attack-conditioned Message Survivability
+
+拓扑相同的边在受到同一类 AiTM 攻击后，仍可能具有不同的攻击生存能力。LLM 不直接输出最终连续分数，而是对三个有明确量表的特征给出 0--4 整数：
+
+- $C$（receptivity）：接收者在下一轮服从该边所附攻击指令的可能性；
+- $P$（persistence）：初次服从后，攻击行为经过后续干净消息仍保留到最终相关报告的可能性；
+- $A$（terminal acceptance）：攻击行为到达最终相关报告后，被终端 Judge 接受而非被并行干净报告覆盖的可能性。
+
+代码验证三项均为 0--4 整数，然后计算：
 
 $$
-C_c(a_i)
+M(e)=
+\left(\frac{C}{4}\right)^{\omega_C}
+\left(\frac{P}{4}\right)^{\omega_P}
+\left(\frac{A}{4}\right)^{\omega_A},
+\qquad
+\omega_C+\omega_P+\omega_A=1
 $$
 
-综合得到：
+默认三项等权，即三项归一化评分的几何平均；任一关键环节为 0 时 $M(e)=0$。评分按接收者分组：每次向评分 Judge 展示原始任务、攻击目标、一个接收者的本轮独立输出、将同时进入其下一轮 inbox 的候选消息、当前/总轮次以及真实终端输入。实际攻击措辞在选边后才生成，因此评分 Judge 只知道准确的攻击目标，不虚构尚不存在的候选攻击文本。输入不使用未来消息，也不进行字符级硬截断。
+
+Tree 与 Asymmetric-Tree 中，原始任务对所有 Agent 可见；通信拓扑只限制 Agent 间消息流。父节点首轮基于原题独立分析，不得假设尚未到达的子节点报告，后续轮次只结合实际收到的报告更新判断。
+
+提示词规定真正不确定时使用合法中间值 2，禁止 `-1`、`null` 或 N/A。解析器独立保留每个合法字段；非法或缺失字段只触发一次局部纠正，不重算其他合法值。纠正后仍非法时，将该接收者组的 $M$ 标记为不可用，并以 `llm_structured_unavailable` 和诊断字段记录；最终边分数只使用可用的 $R$、$B$ 分量并重新归一化，不再填入虚假的中性分数。
+
+------------------------------------------------------------------------
+
+# 7. Edge Influence Score
+
+最终边分数为：
 
 $$
-S_{topo}(a_i)
-$$
-
-具体计算时，将不同拓扑指标进行归一化后加权：
-
-$$
-S_{topo}(a_i)
-=
-w_1 C_d(a_i)
-+
-w_2 C_b(a_i)
-+
-w_3 C_c(a_i)
+Score(e)=
+\mathbb{1}[R_{raw}(e)>0]
+\left(
+w_R\hat R_t(e)
++w_BB_t(e)
++w_MM(e)
+\right)
 $$
 
 其中：
 
 $$
-w_1+w_2+w_3=1
+w_R+w_B+w_M=1
 $$
 
-表示不同拓扑特征的重要程度。
+当前默认三项等权。当 $M(e)$ 因评分输出持续非法而不可用时，代码从该边的可用分量集合中移除 $M$，并按剩余权重重新归一化；不会把缺失的 $M$ 当作 0 或 0.5。选择：
 
-表示 Agent 在通信拓扑中的重要程度。
+$$
+e^*=\arg\max_{e\in E_t}Score(e)
+$$
+
+精确并列时使用实验随机种子进行可复现选择。
+
+旧的 Agent 级 degree / betweenness / closeness 与历史通信启发式不再参与决策。
 
 ------------------------------------------------------------------------
 
-# 5. Role-aware Agent Inference
+# 8. AiTM Attack Execution
 
-攻击者无法直接访问 Agent 的 system prompt，因此根据通信行为推断角色。
+选定 $e^*=(a_u\rightarrow a_v,t)$ 后：
 
-## 5.1 Role Representation
+1. 只截获该边当前轮的一个消息实例；
+2. 保持原发送者不变；
+3. 使用既有 AiTM adversarial agent 生成恶意指令；
+4. 将恶意指令附加到该消息；
+5. 只把篡改消息交付给 $a_v$。
 
-对于 Agent $a_i$：
-
-$$
-X_i=[messages_i,communication_i]
-$$
-
-其中：
-
--   $messages_i$：历史消息；
--   $communication_i$：交互模式。
-
-## 5.2 Role Classification
-
-利用 LLM-based role classifier：
-
-输入：
-
--   Agent 历史消息；
--   通信行为。
-
-输出：
-
-$$
-P(Role_k|X_i)
-$$
-
-例如：
-
-     Role      Probability
-  ---------- -------------
-   Planner            0.85
-   Executor           0.10
-   Verifier           0.05
-
-得到：
-
-$$
-S_{role}(a_i)
-$$
-
-根据角色推断概率以及不同角色对任务流程的影响程度计算：
-
-$$
-S_{role}(a_i)
-=
-\sum_k P(Role_k|X_i)\cdot R_k
-$$
-
-其中：
-
-- $P(Role_k|X_i)$ 表示 Agent 属于角色 $Role_k$ 的推断概率；
-- $R_k$ 表示该角色对最终任务结果的重要程度。
-
-表示角色重要性。
+默认每道题最多一次攻击事件。其他未选消息保持原样。
 
 ------------------------------------------------------------------------
 
-# 6. Communication Influence Analysis
+# 9. 实验记录与验证
 
-仅考虑拓扑和角色仍然不足，因此进一步分析 Agent 对最终任务的实际影响。
+每次选择记录：
 
-## 6.1 Message Propagation Influence
+- `current_round`、`remaining_rounds`、`temporal_decay`；
+- `temporal_reachability_raw`、`temporal_reachability`；
+- `sender_path_mass`、`removed_path_mass`、`irreplaceability`；
+- `message_features`、`message_influence`、评分方法和诊断；
+- 最终 `score`、候选边和选中边。
 
-统计：
+当前 DeepSeek-V3.2 tokenizer 的上下文窗口记录为 131072 tokens。所有实验性 LLM 调用统一预留最多 4096 个输出 tokens；协作消息与 $M$ 的评分输入不做字符级截断。若直接 API 调用返回 `finish_reason=length`，该响应不会作为完整结构化结果使用。
 
--   消息被引用次数；
--   被传播范围；
--   后续 Agent 使用情况。
+必要基线：
 
-得到：
+- No Attack；
+- Random Edge：在完全相同的在线候选边中均匀随机；
+- Online Fixed Target；
+- Original fixed-victim AiTM。
 
-$$
-I_{prop}(a_i)
-$$
+必要消融：
 
-## 6.2 Final Decision Influence
+- $w_R=0$；
+- $w_B=0$；
+- $w_M=0$；
+- 不同 $\lambda$。
 
-分析 Agent 输出是否进入最终决策：
-
-$$
-I_{final}(a_i)
-$$
-
-综合得到：
-
-$$
-S_{comm}(a_i)
-$$
-
-具体计算时：
-
-$$
-S_{comm}(a_i)
-=
-\lambda_1 I_{prop}(a_i)
-+
-\lambda_2 I_{final}(a_i)
-$$
-
-其中：
-
-$$
-\lambda_1+\lambda_2=1
-$$
-
-表示消息传播影响和最终决策影响的权重。
-
-表示通信影响力。
+Shapley Flow 或逐边反事实攻击不进入当前在线算法；后续只作为昂贵的离线 teacher，用于检查轻量分数与真实边攻击效果是否一致。
 
 ------------------------------------------------------------------------
 
-# 7. Agent Influence Score（核心模块）
+# 10. 核心定位
 
-融合三个因素：
+AIRA 不是新的消息篡改方法，而是 AiTM 上的边级攻击决策层：
 
-$$
-Score(a_i)=
-\alpha S_{topo}(a_i)
-+
-\beta S_{role}(a_i)
-+
-\gamma S_{comm}(a_i)
-$$
-
-其中：
-
-$$
-\alpha+\beta+\gamma=1
-$$
-
-最终得到 Agent 攻击价值排名。
-
-------------------------------------------------------------------------
-
-# 8. Adaptive Victim Selection
-
-攻击者只在仍有后续入站通信、且其输出仍可传播至最终决策的候选 Agent 集合 (V_T) 中进行选择。选择最高影响力 Agent：
-
-$$
-a_v=\arg\max_{a_i\in V_T} Score(a_i)
-$$
-
-选定 victim 后，在当前任务中保持该目标不变；多轮任务中的重新选择作为动态切换扩展处理。
-
-区别：
-
-## 原始 AiTM
-
-$$
-\text{Fixed Victim}
-\rightarrow
-\text{Attack}
-$$
-
-## AIRA
-
-$$
-\text{Observation}
-\rightarrow
-\text{Influence Ranking}
-\rightarrow
-\text{Victim Selection}
-\rightarrow
-\text{AiTM}
-$$
-
-------------------------------------------------------------------------
-
-# 9. AiTM Attack Execution
-
-选择 victim 后，保持 AiTM 原始攻击机制。
-
-步骤：
-
-## Step 1: Message Interception
-
-截获：
-
-$$
-m_{sv}
-$$
-
-## Step 2: Adversarial Reasoning
-
-攻击 Agent 根据：
-
--   原始消息；
--   攻击目标；
--   当前上下文；
-
-生成攻击策略。
-
-## Step 3: Message Tampering
-
-生成：
-
-$$
-m'_{sv}
-$$
-
-## Step 4: Injection
-
-发送修改后的消息：
-
-$$
-m'_{sv}\rightarrow a_v
-$$
-
-诱导：
-
--   错误推理；
--   错误决策；
--   任务失败。
-
-------------------------------------------------------------------------
-
-# 10. Dynamic Victim Switching（扩展）
-
-多轮 MAS 中：
-
-每轮重新计算：
-
-$$
-Score_t(a_i)
-$$
-
-动态调整攻击目标。
-
-------------------------------------------------------------------------
-
-# 11. 实验设计
-
-## Baselines
-
--   No Attack
--   Random Victim AiTM
--   Original AiTM
--   MAST
-
-## Ablation
-
-### w/o Topology
-
-去除拓扑信息。
-
-### w/o Role
-
-去除角色信息。
-
-### w/o Communication Influence
-
-去除通信影响信息。
-
-------------------------------------------------------------------------
-
-# 12. 论文贡献总结
-
-## Contribution 1
-
-发现现有 AiTM 存在 victim agent 预定义限制。
-
-## Contribution 2
-
-提出通信观察驱动的 Agent influence modeling：
-
-结合：
-
--   topology information；
--   role information；
--   communication influence。
-
-## Contribution 3
-
-提出 Adaptive Victim Selection，将智能目标选择能力引入
-AiTM，提高攻击效率和泛化能力。
-
-------------------------------------------------------------------------
-
-# 核心定位
-
-本文不是提出新的 AiTM 攻击，而是在 AiTM 基础上增加：
-
-**Attack Decision Intelligence Layer**
-
-解决：
-
-> 攻击者如何自动发现最值得攻击的 Agent。
+> 在严格单次攻击预算下，同时判断当前消息能否按真实轮次传播到最终决策、该路径是否可替代，以及消息内容本身是否值得攻击。

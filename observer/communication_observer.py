@@ -9,7 +9,7 @@ from __future__ import annotations
 
 from dataclasses import asdict, dataclass
 from time import time
-from typing import Dict, Iterable, List, Set
+from typing import Dict, Iterable, List, Optional, Set
 
 
 @dataclass(frozen=True)
@@ -19,6 +19,7 @@ class CommunicationEvent:
     receiver: str
     message: str
     timestamp: float
+    round_index: Optional[int] = None
 
 
 class CommunicationObserver:
@@ -26,13 +27,18 @@ class CommunicationObserver:
 
     def __init__(self) -> None:
         self.events: List[CommunicationEvent] = []
-        self._pending_receivers: Set[str] = set()
 
     def reset(self) -> None:
         self.events.clear()
-        self._pending_receivers.clear()
 
-    def record_delivery(self, sender: str, receiver: str, message: str) -> None:
+    def record_delivery(
+        self,
+        sender: str,
+        receiver: str,
+        message: str,
+        *,
+        round_index: Optional[int] = None,
+    ) -> None:
         """Record one message after it has been addressed to a receiver."""
         self.events.append(
             CommunicationEvent(
@@ -41,22 +47,13 @@ class CommunicationObserver:
                 receiver=receiver,
                 message=message,
                 timestamp=time(),
+                round_index=round_index,
             )
         )
-        self._pending_receivers.add(receiver)
-
-    def record_agent_turn(self, agent: str) -> None:
-        """Mark that an agent has consumed the messages pending for its turn."""
-        self._pending_receivers.discard(agent)
 
     @property
     def observed_agents(self) -> Set[str]:
         return {event.sender for event in self.events} | {event.receiver for event in self.events}
-
-    @property
-    def pending_receivers(self) -> Set[str]:
-        """Agents with at least one observed delivery not yet consumed."""
-        return set(self._pending_receivers)
 
     def estimated_graph(self) -> Dict[str, List[str]]:
         """Return the graph reconstructed solely from observed communication."""
@@ -72,5 +69,4 @@ class CommunicationObserver:
         return {
             "events": [asdict(event) for event in self.events],
             "estimated_graph": self.estimated_graph(),
-            "pending_receivers": sorted(self.pending_receivers),
         }

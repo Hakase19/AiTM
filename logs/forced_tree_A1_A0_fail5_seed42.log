@@ -1,0 +1,13 @@
+Running target/mmlu_bio/tree: 1/5 (sample 2)
+[transformers] PyTorch was not found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+Running target/mmlu_bio/tree: 2/5 (sample 3)
+Running target/mmlu_bio/tree: 3/5 (sample 6)
+Running target/mmlu_bio/tree: 4/5 (sample 15)
+Running target/mmlu_bio/tree: 5/5 (sample 17)
+
+AutoGen AiTM results (ASR %)
+attack         dataset             tree
+---------------------------------------
+target         mmlu_bio            20.0
+
+Saved: /home/hhy/Projects/AiTM/results/forced_tree_A1_A0_fail5_seed42.json
